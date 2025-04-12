@@ -103,3 +103,13 @@ publications:
     authors: "Keun-Soo Heo, Dong-Hee Shin, Sheng-Che Hung, Weili Lin, Han Zhang, Dinggang Shen, Tae-Eui Kam"
     venue: "NeuroImage, 2022"
 
+  - title: "Evolutionary Reinforcement Learning for Automated Hyperparameter Optimization in EEG Classification"
+    link: "https://ieeexplore.ieee.org/abstract/document/9734935"
+    authors: "Dong-Hee Shin, Dong-Hee Ko, Ji-Wung Han, Tae-Eui Kam"
+    venue: "International Winter Conference on Brain-Computer Interface (BCI), 2022"
+
+  - title: "Attention-based spatio-temporal-spectral feature learning for subject-specific EEG classification"
+    link: "https://ieeexplore.ieee.org/abstract/document/9385293"
+    authors: "Dong-Hee Ko, Dong-Hee Shin, Tae-Eui Kam"
+    venue: "International Winter Conference on Brain-Computer Interface (BCI), 2021"
+  
