@@ -1,15 +1,42 @@
 publications:
-  - title: Molecular Transformer for Active Learning
-    link: https://arxiv.org/abs/2301.00001
-    authors: Dong-Hee Shin, et al.
-    venue: NeurIPS 2024
-
-  - title: Reinforcement Learning for Reaction Path Optimization
-    link: https://arxiv.org/abs/2302.00002
-    authors: Dong-Hee Shin, et al.
-    venue: ICML 2023
-
-  - title: Graph-Based Molecule Discovery
-    link:
-    authors: Dong-Hee Shin, et al.
+  - title: Offline Model-based Optimization for Real-World Molecular Discovery
+    link: 
+    authors: Dong-Hee Shin, Young-Han Son, Hyun Jung Lee, Deok-Joong Lee, Tae-Eui Kam
     venue: Under Review, 2025
+
+  - title: Population-Based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface
+    link: https://www.sciencedirect.com/science/article/pii/S095741742402699X
+    authors: Dong-Hee Shin, Deok-Joong Lee, Ji-Wung Han, Young-Han Son, Tae-Eui Kam
+    venue: Expert Systems with Applications (ESWA), 2025
+
+  - title: Designing Selective Drugs: Multi-Objective Optimization to Mitigate Off-Target Effects
+    link: https://ieeexplore.ieee.org/document/10879640
+    authors: Dong-Hee Shin, Young-Han Son, Deok-Joong Lee, Tae-Eui Kam
+    venue: International Conference on Electronics, Information, and Communication (ICEIC), 2025
+
+  - title: Dynamic Many-Objective Molecular Optimization: Unfolding Complexity with Objective Decomposition and Progressive Optimization
+    link: https://openreview.net/pdf?id=pmfub8rn4W
+    authors: Dong-Hee Shin, Young-Han Son, Deok-Joong Lee, Ji-Wung Han, Tae-Eui Kam
+    venue: International Joint Conference on Artificial Intelligence (IJCAI), 2024
+
+  - title: Sparse Graph Representation Learning Based on Reinforcement Learning for Personalized Mild Cognitive Impairment (MCI) Diagnosis
+    link: https://ieeexplore.ieee.org/document/10509746
+    authors: Chang-Hoon Ji, Dong-Hee Shin, Young-Han Son, Tae-Eui Kam
+    venue: IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024
+
+  - title: FTMMR: Fusion transformer for integrating multiple molecular representations
+    link: https://ieeexplore.ieee.org/document/10485400
+    authors: Young-Han Son, Dong-Hee Shin, Tae-Eui Kam
+    venue: IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024
+
+  - title: MARS: multiagent reinforcement learning for spatial—spectral and temporal feature selection in EEG-based BCI
+    link: https://ieeexplore.ieee.org/document/10426745
+    authors: Dong-Hee Shin, Young-Han Son, Jun-Mo Kim, Hee-Jun Ahn, Jun-Ho Seo, Chang-Hoon Ji, Ji-Wung Han, Byung-Jun Lee, Dong-Ok Won, Tae-Eui Kam
+    venue: IEEE Transactions on Systems, Man, and Cybernetics: Systems (IEEE TSMC), 2024
+
+  - title: Evolutionary Reinforcement Learning for Automated Hyperparameter Optimization in EEG Classification
+    link: https://ieeexplore.ieee.org/abstract/document/9734935
+    authors: Dong-Hee Shin, Dong-Hee Ko, Ji-Wung Han, Tae-Eui Kam
+    venue: International Winter Conference on Brain-Computer Interface (BCI), 2022
+
+    
