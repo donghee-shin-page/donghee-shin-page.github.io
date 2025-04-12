@@ -27,12 +27,13 @@ layout: default
           <strong>{{ pub.title }}</strong>
         {% endif %}
         <br/>
-        <em>{{ pub.authors }}</em><br/>
+        <em>{{ pub.authors | replace: "Dong-Hee Shin", "<strong>Dong-Hee Shin</strong>" }}</em><br/>
         {{ pub.venue }}
       </li>
     {% endfor %}
   </ul>
 </section>
+
 
 <!-- 🏆 Awards -->
 <section class="container" style="margin-top: 50px;">
