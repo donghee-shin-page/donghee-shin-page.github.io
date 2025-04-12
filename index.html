@@ -4,6 +4,25 @@ layout: default
 
 {% include hero.html %}
 
+<section id="publications" class="container" style="margin-top: 50px;">
+  <h2 style="font-size: 28px; font-weight: bold;">📝 Publications</h2>
+  <ul style="list-style: none; padding-left: 0;">
+    {% for pub in site.data.publications %}
+      <li style="margin-bottom: 20px;">
+        <strong>
+          {% if pub.link %}
+            <a href="{{ pub.link }}">{{ pub.title }}</a>
+          {% else %}
+            {{ pub.title }}
+          {% endif %}
+        </strong><br/>
+        <em>{{ pub.authors }}</em><br/>
+        {{ pub.venue }}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
 <div class="container">
   <div class="row animate">
     {% if site.posts.size > 0 %}
