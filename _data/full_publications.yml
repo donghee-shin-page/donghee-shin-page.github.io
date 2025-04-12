@@ -28,7 +28,12 @@ publications:
   - title: "Image2SignalNet: Image-based deep learning approach for capturing neuronal signals from calcium imaging"
     link: "https://ieeexplore.ieee.org/abstract/document/10821755"
     authors: "Eunjung Jo, Dong-Hee Shin, Ji-Hye Oh, Sanghyeon Cho, Hyun Jung Lee, Tae-Eui Kam"
-    venue: "International Conference on Bioinformatics and Biomedicine (BIBM), 2025"  
+    venue: "International Conference on Bioinformatics and Biomedicine (BIBM), 2024"  
+
+  - title: "A learnable continuous wavelet-based multi-branch attentive convolutional neural network for spatio–spectral–temporal EEG signal decoding"
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0957417424008418"
+    authors: "Jun-Mo Kim, Keun-Soo Heo, Dong-Hee Shin, Hyeonyeong Nam, Dong-Ok Won, Ji-Hoon Jeong, Tae-Eui Kam"
+    venue: "Expert Systems with Applications (ESWA), 2024"  
   
   - title: "Dynamic Many-Objective Molecular Optimization: Unfolding Complexity with Objective Decomposition and Progressive Optimization"
     link: "https://openreview.net/pdf?id=pmfub8rn4W"
