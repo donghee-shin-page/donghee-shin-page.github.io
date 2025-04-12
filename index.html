@@ -18,37 +18,48 @@ layout: default
 <section class="container" style="margin-top: 50px;">
   <h2 style="font-size: 28px; font-weight: bold;">📚 Selected Publications</h2>
 
-  <ul style="padding-left: 20px; margin-top: 30px;">
+  <!-- 기본 bullet 없애고 커스텀 이모지 📄 사용 -->
+  <ul style="list-style: none; padding-left: 0; margin-top: 30px;">
     {% for pub in site.data.publications.publications %}
-      <li style="margin-bottom: 28px;">
-        <!-- Title -->
-        <div style="font-size: 18px; font-weight: 600; margin-bottom: 5px;">
-          {% if pub.link %}
-            <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
-              {{ pub.title }}
-            </a>
-          {% else %}
-            {{ pub.title }}
-          {% endif %}
-        </div>
+      <li style="margin-bottom: 32px;">
+        <div style="display: flex; align-items: flex-start;">
+          <!-- 이모지 bullet -->
+          <div style="font-size: 18px; line-height: 1.4; margin-right: 10px;">📄</div>
 
-        <!-- Authors -->
-        {% assign author_str = pub.authors | replace: "Dong-Hee Shin", '<strong style="text-decoration: underline;">Dong-Hee Shin</strong>' %}
-        <div style="font-size: 15px; margin: 0;">
-          {{ author_str }}
-        </div>
+          <!-- 논문 정보 -->
+          <div>
+            <!-- Title -->
+            <div style="font-size: 18px; font-weight: 600; margin-bottom: 5px;">
+              {% if pub.link %}
+                <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
+                  {{ pub.title }}
+                </a>
+              {% else %}
+                {{ pub.title }}
+              {% endif %}
+            </div>
 
-        <!-- Venue + Note -->
-        <div style="font-size: 14px; color: #666; margin-top: 2px;">
-          {{ pub.venue }}
-          {% if pub.note %}
-            <br/><span style="font-size: 13px; color: #999;">{{ pub.note }}</span>
-          {% endif %}
+            <!-- Authors -->
+            {% assign author_str = pub.authors | replace: "Dong-Hee Shin", '<strong style="text-decoration: underline;">Dong-Hee Shin</strong>' %}
+            <div style="font-size: 15px; margin-bottom: 2px;">
+              {{ author_str }}
+            </div>
+
+            <!-- Venue & Optional Note -->
+            <div style="font-size: 14px; color: #666;">
+              {{ pub.venue }}
+              {% if pub.note %}
+                <br/>
+                <span style="font-size: 13px; color: #999;">{{ pub.note }}</span>
+              {% endif %}
+            </div>
+          </div>
         </div>
       </li>
     {% endfor %}
   </ul>
 </section>
+
 
 <!-- 🏆 Awards -->
 <section class="container" style="margin-top: 50px;">
