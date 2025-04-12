@@ -18,9 +18,9 @@ layout: default
 <section class="container" style="margin-top: 50px;">
   <h2 style="font-size: 28px; font-weight: bold;">📚 Selected Publications</h2>
 
-  <ul style="list-style: none; padding-left: 0; margin-top: 30px;">
+  <ul style="padding-left: 20px; margin-top: 30px;">
     {% for pub in site.data.publications.publications %}
-      <li style="margin-bottom: 32px; line-height: 1.6;">
+      <li style="margin-bottom: 28px;">
         <!-- Title -->
         <div style="font-size: 18px; font-weight: 600; margin-bottom: 5px;">
           {% if pub.link %}
@@ -38,23 +38,17 @@ layout: default
           {{ author_str }}
         </div>
 
-
-        <!-- Venue -->
+        <!-- Venue + Note -->
         <div style="font-size: 14px; color: #666; margin-top: 2px;">
-        {{ pub.venue }}
-        {% if pub.note %}
-        <br/><span style="font-size: 13px; color: #999;">{{ pub.note }}</span>
-        {% endif %}
-</div>
-
+          {{ pub.venue }}
+          {% if pub.note %}
+            <br/><span style="font-size: 13px; color: #999;">{{ pub.note }}</span>
+          {% endif %}
+        </div>
       </li>
     {% endfor %}
   </ul>
 </section>
-
-
-
-
 
 <!-- 🏆 Awards -->
 <section class="container" style="margin-top: 50px;">
