@@ -19,24 +19,33 @@ layout: default
   <h2 style="font-size: 28px; font-weight: bold;">📚 Selected Publications</h2>
 
   <ul style="list-style: none; padding-left: 0; margin-top: 30px;">
-  {% for pub in site.data.publications.publications %}
-    <li style="margin-bottom: 20px;">
-      {% if pub.link %}
-        <strong><a href="{{ pub.link }}">{{ pub.title }}</a></strong>
-      {% else %}
-        <strong>{{ pub.title }}</strong>
-      {% endif %}
-      <br/>
+    {% for pub in site.data.publications.publications %}
+      <li style="margin-bottom: 32px; line-height: 1.6;">
+        <!-- Title -->
+        <div style="font-size: 18px; font-weight: 600; margin-bottom: 5px;">
+          {% if pub.link %}
+            <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
+              {{ pub.title }}
+            </a>
+          {% else %}
+            {{ pub.title }}
+          {% endif %}
+        </div>
 
-      {% assign author_str = pub.authors | replace: "Dong-Hee Shin", "<strong>Dong-Hee Shin</strong>" %}
-      <em style="display: inline-block; margin-top: 3px;">
-        {{ author_str | markdownify }}
-      </em><br/>
+        <!-- Authors -->
+        {% assign author_str = pub.authors | replace: "Dong-Hee Shin", "<strong>Dong-Hee Shin</strong>" %}
+        <div style="font-size: 15px;">
+          {{ author_str | markdownify }}
+        </div>
 
-      {{ pub.venue }}
-    </li>
-  {% endfor %}
-</ul>
+        <!-- Venue -->
+        <div style="font-size: 14px; color: #666; margin-top: 2px;">
+          {{ pub.venue }}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
 
 
 
