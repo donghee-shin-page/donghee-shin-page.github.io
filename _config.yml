@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-title: Joseph Lawrence
+title: Dong-Hee Shin
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Joseph is a super minimal content focus theme for Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -9,9 +9,9 @@ url: "https://donghee-shin-page.github.io" # the base hostname & protocol for yo
 #-------------------------------
 # Author Settings
 author:
-  name: Joseph Lawrence
+  name: Dong-Hee Shin
   bio: I'm a designer & products creator. I teach designers code and developers design. Passionate about people, health, & design systems.
-  avatar: '/images/01.jpg'
+  avatar: '/images/donghee_shin.jpg'
 
 social:
 - {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com"}
