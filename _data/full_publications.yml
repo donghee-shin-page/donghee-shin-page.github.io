@@ -98,11 +98,6 @@ publications:
     authors: "Keun-Soo Heo, Dong-Hee Shin, Sheng-Che Hung, Weili Lin, Han Zhang, Dinggang Shen, Tae-Eui Kam"
     venue: "NeuroImage, 2022"
 
-  - title: "Deep attentive spatio-temporal feature learning for automatic resting-state fMRI denoising"
-    link: "https://www.sciencedirect.com/science/article/pii/S1053811922002555"
-    authors: "Keun-Soo Heo, Dong-Hee Shin, Sheng-Che Hung, Weili Lin, Han Zhang, Dinggang Shen, Tae-Eui Kam"
-    venue: "NeuroImage, 2022"
-
   - title: "Evolutionary Reinforcement Learning for Automated Hyperparameter Optimization in EEG Classification"
     link: "https://ieeexplore.ieee.org/abstract/document/9734935"
     authors: "Dong-Hee Shin, Dong-Hee Ko, Ji-Wung Han, Tae-Eui Kam"
