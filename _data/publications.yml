@@ -1,14 +1,21 @@
-- title: Molecular Transformer for Active Learning
-  link: https://arxiv.org/abs/2301.00001
-  authors: Dong-Hee Shin, et al.
-  venue: NeurIPS 2024
+selected:
+  - title: Molecular Transformer for Active Learning
+    link: https://arxiv.org/abs/2301.00001
+    authors: Dong-Hee Shin, et al.
+    venue: NeurIPS 2024
 
-- title: Reinforcement Learning for Reaction Path Optimization
-  link: https://arxiv.org/abs/2302.00002
-  authors: Dong-Hee Shin, et al.
-  venue: ICML 2023
+all:
+  - title: Molecular Transformer for Active Learning
+    link: https://arxiv.org/abs/2301.00001
+    authors: Dong-Hee Shin, et al.
+    venue: NeurIPS 2024
 
-- title: Graph-Based Molecule Discovery
-  link:
-  authors: Dong-Hee Shin, et al.
-  venue: Under Review, 2025
+  - title: Reinforcement Learning for Reaction Path Optimization
+    link: https://arxiv.org/abs/2302.00002
+    authors: Dong-Hee Shin, et al.
+    venue: ICML 2023
+
+  - title: Graph-Based Molecule Discovery
+    link:
+    authors: Dong-Hee Shin, et al.
+    venue: Under Review, 2025
