@@ -16,24 +16,17 @@ layout: default
 
 <!-- 📚 Publications -->
 <section class="container" style="margin-top: 50px;">
-  <h2 style="font-size: 28px; font-weight: bold;">📝 Publications</h2>
+  <h2 style="font-size: 28px; font-weight: bold;">📚 Selected Publications</h2>
 
-  <h3 style="margin-top: 30px;"> [Selected Publications]</h3>
-  <ul style="list-style: none; padding-left: 0;">
-    {% for pub in site.data.publications.selected %}
+  <ul style="list-style: none; padding-left: 0; margin-top: 30px;">
+    {% for pub in site.data.publications.publications %}
       <li style="margin-bottom: 20px;">
-        <strong>{% if pub.link %}<a href="{{ pub.link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</strong><br/>
-        <em>{{ pub.authors }}</em><br/>
-        {{ pub.venue }}
-      </li>
-    {% endfor %}
-  </ul>
-
-  <h3 style="margin-top: 40px;"> [Full Publications]</h3>
-  <ul style="list-style: none; padding-left: 0;">
-    {% for pub in site.data.publications.all %}
-      <li style="margin-bottom: 20px;">
-        <strong>{% if pub.link %}<a href="{{ pub.link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</strong><br/>
+        {% if pub.link %}
+          <strong><a href="{{ pub.link }}">{{ pub.title }}</a></strong>
+        {% else %}
+          <strong>{{ pub.title }}</strong>
+        {% endif %}
+        <br/>
         <em>{{ pub.authors }}</em><br/>
         {{ pub.venue }}
       </li>
