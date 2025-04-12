@@ -20,6 +20,16 @@ publications:
     authors: "Young-Han Son, Dong-Hee Shin, Deok-Joong Lee, Tae-Eui Kam"
     venue: "International Conference on Electronics, Information, and Communication (ICEIC), 2025"  
 
+  - title: "Hybrid Local-Global GNN for Protein Binding Interface Prediction via Ensemble Learning"
+    link: "https://ieeexplore.ieee.org/abstract/document/10879636"
+    authors: "Deok-Joong Lee, Dong-Hee Shin, Young-Han Son, Tae-Eui Kam"
+    venue: "International Conference on Electronics, Information, and Communication (ICEIC), 2025"  
+
+  - title: "Image2SignalNet: Image-based deep learning approach for capturing neuronal signals from calcium imaging"
+    link: "https://ieeexplore.ieee.org/abstract/document/10821755"
+    authors: "Eunjung Jo, Dong-Hee Shin, Ji-Hye Oh, Sanghyeon Cho, Hyun Jung Lee, Tae-Eui Kam"
+    venue: "International Conference on Bioinformatics and Biomedicine (BIBM), 2025"  
+  
   - title: "Dynamic Many-Objective Molecular Optimization: Unfolding Complexity with Objective Decomposition and Progressive Optimization"
     link: "https://openreview.net/pdf?id=pmfub8rn4W"
     authors: "Dong-Hee Shin, Young-Han Son, Deok-Joong Lee, Ji-Wung Han, Tae-Eui Kam"
