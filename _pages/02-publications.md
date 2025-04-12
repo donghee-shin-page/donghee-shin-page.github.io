@@ -6,49 +6,48 @@ permalink: /publications/
 
 ## 📚 Publications
 
-Here is a list of my recent publications in the fields of machine learning, molecular discovery, and artificial intelligence. For the most up-to-date list, you can also visit my [Google Scholar](https://scholar.google.com/citations?user=vosljfIAAAAJ&hl=ko) profile.
+Here is a list of my recent publications in the fields of machine learning, molecular discovery, and artificial intelligence.  
+For the most up-to-date list, visit my [Google Scholar](https://scholar.google.com/citations?user=vosljfIAAAAJ&hl=ko) profile.
 
 ---
 
-### 📄 Molecular Transformer for Active Learning  
-**Dong-Hee Shin**, et al.  
-*NeurIPS 2024*  
-[arXiv:2301.00001](https://arxiv.org/abs/2301.00001)
-
-A transformer-based framework that incorporates uncertainty-aware active learning into molecular property prediction, enabling efficient dataset curation and model performance gains with minimal labeled data.
+### 📄 [Population-Based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface](https://www.sciencedirect.com/science/article/pii/S095741742402699X)  
+**Dong-Hee Shin**, Deok-Joong Lee, Ji-Wung Han, Young-Han Son, Tae-Eui Kam  
+*Expert Systems with Applications (ESWA), 2025*  
+<sub>**JCR Top 10% (IF: 7.5)**</sub>
 
 ---
 
-### 📄 Reinforcement Learning for Reaction Path Optimization  
-**Dong-Hee Shin**, et al.  
-*ICML 2023*  
-[arXiv:2302.00002](https://arxiv.org/abs/2302.00002)
-
-This work introduces a policy-gradient reinforcement learning approach for optimizing chemical reaction pathways, showing improvements over traditional search-based methods in synthetic accessibility and diversity.
-
----
-
-### 📄 Graph-Based Molecule Discovery  
-**Dong-Hee Shin**, et al.  
+### 📄 Offline Model-based Optimization for Real-World Molecular Discovery  
+**Dong-Hee Shin**, Young-Han Son, Hyun Jung Lee, Deok-Joong Lee, Tae-Eui Kam  
 *Under Review, 2025*
 
-A graph generative model trained with reinforcement signals to generate novel molecular structures that satisfy complex chemical constraints. This method integrates symbolic constraints into graph-based molecule generation without post-filtering.
+---
+
+### 📄 [Dynamic Many-Objective Molecular Optimization: Unfolding Complexity with Objective Decomposition and Progressive Optimization](https://openreview.net/pdf?id=pmfub8rn4W)  
+**Dong-Hee Shin**, Young-Han Son, Deok-Joong Lee, Ji-Wung Han, Tae-Eui Kam  
+*International Joint Conference on Artificial Intelligence (IJCAI), 2024*
 
 ---
 
-### 📄 Self-Supervised Learning for Molecular Embeddings  
-**Dong-Hee Shin**, et al.  
-*ChemRxiv Preprint, 2024*
-
-We propose a contrastive learning framework for pretraining molecular embeddings, improving downstream performance on QSAR tasks with limited labels.
+### 📄 [Sparse Graph Representation Learning Based on Reinforcement Learning for Personalized Mild Cognitive Impairment (MCI) Diagnosis](https://ieeexplore.ieee.org/document/10509746)  
+Chang-Hoon Ji, **Dong-Hee Shin**, Young-Han Son, Tae-Eui Kam  
+*IEEE Journal of Biomedical and Health Informatics (JBHI), 2024*  
+<sub>**JCR Top 10% (IF: 6.7)**</sub>
 
 ---
 
-### 📄 Hierarchical Exploration of Reaction Trees using Monte Carlo Search  
-**Dong-Hee Shin**, et al.  
-*Workshop on AI for Scientific Discovery, NeurIPS 2023*
+### 📄 [FTMMR: Fusion transformer for integrating multiple molecular representations](https://ieeexplore.ieee.org/document/10485400)  
+Young-Han Son, **Dong-Hee Shin**, Tae-Eui Kam  
+*IEEE Journal of Biomedical and Health Informatics (JBHI), 2024*  
+<sub>**JCR Top 10% (IF: 6.7)**</sub>
 
-A hierarchical MCTS-based algorithm that efficiently searches high-dimensional reaction trees, achieving better coverage and interpretability for complex reaction planning problems.
+---
+
+### 📄 [MARS: Multiagent Reinforcement Learning for Spatial–Spectral and Temporal Feature Selection in EEG-based BCI](https://ieeexplore.ieee.org/document/10426745)  
+**Dong-Hee Shin**, Young-Han Son, Jun-Mo Kim, Hee-Jun Ahn, Jun-Ho Seo, Chang-Hoon Ji, Ji-Wung Han, Byung-Jun Lee, Dong-Ok Won, Tae-Eui Kam  
+*IEEE Transactions on Systems, Man, and Cybernetics: Systems (IEEE TSMC), 2024*  
+<sub>**JCR Top 10% (IF: 8.6)**</sub>
 
 ---
 
