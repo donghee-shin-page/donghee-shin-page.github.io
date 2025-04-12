@@ -19,20 +19,25 @@ layout: default
   <h2 style="font-size: 28px; font-weight: bold;">📚 Selected Publications</h2>
 
   <ul style="list-style: none; padding-left: 0; margin-top: 30px;">
-    {% for pub in site.data.publications.publications %}
-      <li style="margin-bottom: 20px;">
-        {% if pub.link %}
-          <strong><a href="{{ pub.link }}">{{ pub.title }}</a></strong>
-        {% else %}
-          <strong>{{ pub.title }}</strong>
-        {% endif %}
-        <br/>
-        <em>{{ pub.authors | replace: "Dong-Hee Shin", "<strong>Dong-Hee Shin</strong>" }}</em><br/>
-        {{ pub.venue }}
-      </li>
-    {% endfor %}
-  </ul>
-</section>
+  {% for pub in site.data.publications.publications %}
+    <li style="margin-bottom: 20px;">
+      {% if pub.link %}
+        <strong><a href="{{ pub.link }}">{{ pub.title }}</a></strong>
+      {% else %}
+        <strong>{{ pub.title }}</strong>
+      {% endif %}
+      <br/>
+
+      {% assign author_str = pub.authors | replace: "Dong-Hee Shin", "<strong>Dong-Hee Shin</strong>" %}
+      <em style="display: inline-block; margin-top: 3px;">
+        {{ author_str | markdownify }}
+      </em><br/>
+
+      {{ pub.venue }}
+    </li>
+  {% endfor %}
+</ul>
+
 
 
 <!-- 🏆 Awards -->
