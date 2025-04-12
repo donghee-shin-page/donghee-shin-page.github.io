@@ -34,18 +34,19 @@ layout: default
 
         <!-- Authors -->
         {% assign author_str = pub.authors | replace: "Dong-Hee Shin", '<strong style="text-decoration: underline;">Dong-Hee Shin</strong>' %}
-        <div style="font-size: 15px; margin-bottom: 2px;">
-          {{ author_str | markdownify }}
+        <div style="font-size: 15px; margin: 0;">
+          {{ author_str }}
         </div>
 
         <!-- Venue -->
-        <div style="font-size: 14px; color: #666; margin-top: 0;">
+        <div style="font-size: 14px; color: #666; margin-top: 2px;">
           {{ pub.venue }}
         </div>
       </li>
     {% endfor %}
   </ul>
 </section>
+
 
 
 
