@@ -38,10 +38,15 @@ layout: default
           {{ author_str }}
         </div>
 
+
         <!-- Venue -->
         <div style="font-size: 14px; color: #666; margin-top: 2px;">
-          {{ pub.venue }}
-        </div>
+        {{ pub.venue }}
+        {% if pub.note %}
+        <br/><span style="font-size: 13px; color: #999;">{{ pub.note }}</span>
+        {% endif %}
+</div>
+
       </li>
     {% endfor %}
   </ul>
