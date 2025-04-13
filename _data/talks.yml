@@ -1,10 +1,11 @@
+- title: Dynamic Many-Objective Molecular Optimization
+  event: IJCAI
+  year: 2024
+  location: Jeju, Korea
 
-- title: Reinforcement Learning for Molecular Discovery
-  event: ICML Workshop on AI for Science
-  year: 2023
-  location: Honolulu, Hawaii
 
-- title: Active Learning in Drug Discovery
-  event: Korea AI Symposium
-  year: 2022
-  location: Seoul, South Korea
+- title: Progressive Optimization for Molecular Discovery
+  event: ICLR Workshop on Generative and Experimental Perspectives for Biomolecular Design
+  year: 2024
+  location: Vienna, Austria
+
