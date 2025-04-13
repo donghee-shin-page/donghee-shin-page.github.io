@@ -1,9 +1,14 @@
-- course: Introduction to Artificial Intelligence
-  role: Teaching Assistant
-  term: Fall 2023
-  institution: Korea University
+- course: Generative Model 
+  role: Instructor
+  term: Feb 2023
+  institution: Tech University of Korea
 
-- course: Machine Learning
+- course: Introduction to Artificial Intelligence
+  role: Tutor
+  term: 2021, 2022, 2023
+  institution: LG CNS
+  
+- course: Reinforcement Learning
   role: Teaching Assistant
-  term: Spring 2023
+  term: Fall 2022
   institution: Korea University
