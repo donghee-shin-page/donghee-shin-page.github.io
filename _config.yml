@@ -34,7 +34,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Hello, I’m Dong-Hee
-  hero__description: I’m a PhD student at Korea University. My research interests include molecular discovery, reinforcement learning, and optimizaiton algorithms.
+  hero__description: I’m a PhD student at Korea University exploring molecular discovery, reinforcement learning, and optimization.
   hero__image: '/images/donghee_shin1.jpg'
 
 
