@@ -51,8 +51,7 @@ mailchimp__button__text: Join # Add your button text
 # Contact Settings
 contact:
   email: dongheeshin@korea.ac.kr # Add your email for contact form
-  description: Interested in research collaboration, discussing ideas, or just connecting? I'm happy to hear from you. # Add a description of your form
-
+  description: I'm open to collaborations, idea exchange, or meaningful connections. Please feel free to reach out.
 # NOTE
 # Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
 
