@@ -5,10 +5,9 @@ permalink: /publications/
 ---
 
 <h2 style="font-size: 28px; font-weight: bold;">📚 Full Publications</h2>
-<p style="font-size: 16px;">
-  Here is a list of my recent publications in the fields of machine learning, molecular discovery, and artificial intelligence.<br>
-  For the most up-to-date list, visit my
-  <a href="https://scholar.google.com/citations?user=vosljfIAAAAJ&hl=ko" target="_blank">Google Scholar</a> profile.
+<p style="font-size: 18px;">
+  Here is the full list of my recent publications.<br>
+  
 </p>
 
 <hr style="margin-top: 20px; margin-bottom: 30px;"/>
@@ -17,7 +16,7 @@ permalink: /publications/
   {% for pub in site.data.full_publications.publications %}
     <li style="margin-bottom: 28px;">
       <!-- Title -->
-      <div style="font-size: 18px; font-weight: 600; margin-bottom: 5px;">
+      <div style="font-size: 20px; font-weight: 600; margin-bottom: 5px;">
         {% if pub.link %}
           <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
             {{ pub.title }}
@@ -29,18 +28,18 @@ permalink: /publications/
 
       <!-- Authors -->
       {% assign author_str = pub.authors | replace: "Dong-Hee Shin", "<strong><u>Dong-Hee Shin</u></strong>" %}
-      <div style="font-size: 15px;">
+      <div style="font-size: 18px;">
         {{ author_str }}
       </div>
 
       <!-- Venue -->
-      <div style="font-size: 14px; color: #666;">
+      <div style="font-size: 17px; color: #666;">
         {{ pub.venue }}
       </div>
 
       <!-- JCR Note (optional) -->
       {% if pub.note %}
-        <div style="font-size: 13px; color: #999; margin-top: 2px;">
+        <div style="font-size: 15px; color: #999; margin-top: 2px;">
           {{ pub.note }}
         </div>
       {% endif %}
@@ -51,6 +50,6 @@ permalink: /publications/
 <hr style="margin-top: 40px;"/>
 
 <p style="font-size: 15px;">
-  📌 For full list and citation formats, please visit:
+  📌 For the most up-to-date list and citation formats, please visit:
   <a href="https://scholar.google.com/citations?user=vosljfIAAAAJ&hl=ko" target="_blank">Google Scholar Profile →</a>
 </p>
