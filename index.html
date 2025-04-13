@@ -78,19 +78,23 @@ layout: default
 <!-- 🧑‍🏫 Teaching / Mentoring -->
 <section class="container" style="margin-top: 50px;">
   <h2 style="font-size: 28px; font-weight: bold;">🧑‍🏫 Teaching & Mentoring</h2>
-  <ul style="list-style: disc; padding-left: 20px;">
+  <ul style="list-style: none; padding-left: 0;">
     {% for course in site.data.teaching %}
-      <li style="margin-bottom: 12px;">
-        <div style="font-size: 16px;">
-          <strong>{{ course.course }}</strong> – {{ course.role }}, {{ course.term }}
+      <li style="margin-bottom: 14px;">
+        <div style="font-size: 20px; font-weight: bold;">
+          {{ course.course }}
         </div>
-        <div style="font-size: 15px; font-style: italic; color: #555;">
+        <div style="font-size: 18px; font-style: italic; margin-top: 2px;">
+          {{ course.role }}, {{ course.term }}
+        </div>
+        <div style="font-size: 18px; font-style: italic; color: #555;">
           {{ course.institution }}
         </div>
       </li>
     {% endfor %}
   </ul>
 </section>
+
 
 
 <!-- 🎤 Talks -->
