@@ -14,11 +14,12 @@ permalink: /publications/
 
 <hr style="margin-top: 20px; margin-bottom: 30px;"/>
 
-<ul style="padding-left: 20px;">
+<ul style="padding-left: 20px; max-width: 900px; margin: 0 auto;">
   {% for pub in site.data.full_publications.publications %}
-    <li style="margin-bottom: 28px;">
+    <li style="margin-bottom: 32px; line-height: 1.6;">
+      
       <!-- Title -->
-      <div style="font-size: 20px; font-weight: 600; margin-bottom: 5px;">
+      <div style="font-size: 20px; font-weight: 600; margin-bottom: 6px; max-width: 100%;">
         {% if pub.link %}
           <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
             {{ pub.title }}
@@ -30,7 +31,7 @@ permalink: /publications/
 
       <!-- Authors -->
       {% assign author_str = pub.authors | replace: "Dong-Hee Shin", "<strong><u>Dong-Hee Shin</u></strong>" %}
-      <div style="font-size: 18px;">
+      <div style="font-size: 18px; color: #333;">
         {{ author_str }}
       </div>
 
@@ -41,12 +42,13 @@ permalink: /publications/
 
       <!-- JCR Note (optional) -->
       {% if pub.note %}
-        <div style="font-size: 15px; color: #999; margin-top: 2px;">
+        <div style="font-size: 15px; color: #999; margin-top: 3px;">
           {{ pub.note }}
         </div>
       {% endif %}
     </li>
   {% endfor %}
 </ul>
+
 
 <hr style="margin-top: 40px;"/>
