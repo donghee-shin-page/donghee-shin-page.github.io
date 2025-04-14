@@ -36,15 +36,15 @@ layout: default
 
         <!-- Authors -->
         {% assign author_str = pub.authors | replace: "Dong-Hee Shin", '<strong style="text-decoration: underline;">Dong-Hee Shin</strong>' %}
-        <div style="font-size: 16px; margin: 0;">
+        <div style="font-size: 17px; margin: 0;">
           {{ author_str }}
         </div>
 
         <!-- Venue + Note -->
-        <div style="font-size: 16px; color: #666; margin-top: 2px;">
+        <div style="font-size: 17px; color: #666; margin-top: 2px;">
           {{ pub.venue }}
           {% if pub.note %}
-            <br/><span style="font-size: 15px; color: #999;">{{ pub.note }}</span>
+            <br/><span style="font-size: 16px; color: #999;">{{ pub.note }}</span>
           {% endif %}
         </div>
       </li>
