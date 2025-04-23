@@ -11,7 +11,7 @@ url: "https://donghee-shin-page.github.io" # the base hostname & protocol for yo
 author:
   name: Dong-Hee Shin
   bio: I’m a PhD student at Korea University. My research interests include molecular discovery, reinforcement learning, and optimizaiton algorithms.
-  avatar: '/images/donghee_shin1.jpg'
+  avatar: '/images/donghee_shin1.png'
 
 # social:
 # - {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com"}
