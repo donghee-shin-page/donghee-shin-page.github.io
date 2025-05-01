@@ -2,7 +2,7 @@ publications:
   - title: "Offline Model-based Optimization for Real-World Molecular Discovery"
     link: 
     authors: "Dong-Hee Shin, Young-Han Son, Hyun Jung Lee, Deok-Joong Lee, Tae-Eui Kam"
-    venue: "Under Review, 2025"
+    venue: "International Conference on Machine Learning (ICML), 2025"
 
   - title: "Population-based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface"
     link: "https://www.sciencedirect.com/science/article/pii/S095741742402699X"
