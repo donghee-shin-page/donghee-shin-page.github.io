@@ -2,7 +2,7 @@ publications:
   - title: "Offline Model-based Optimization for Real-World Molecular Discovery"
     link:
     authors: "Dong-Hee Shin, Young-Han Son, Hyun Jung Lee, Deok-Joong Lee, Tae-Eui Kam"
-    venue: "Under Review, 2025"
+    venue: "International Conference on Machine Learning (ICML), 2025"
 
   - title: "DART: Disease-aware Image-Text Alignment and Self-correcting Re-alignment for Trustworthy Radiology Report Generation"
     link:
