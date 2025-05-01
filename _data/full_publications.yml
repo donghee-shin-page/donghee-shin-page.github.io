@@ -6,7 +6,7 @@ publications:
 
   - title: "DART: Disease-aware Image-Text Alignment and Self-correcting Re-alignment for Trustworthy Radiology Report Generation"
     link:
-    authors: "Sang-Jun Park, Keun-Soo Heo, Dong-Hee Shin, Young-Han Son, Ji-Hye Oh, Tae-Eui Kam"
+    authors: "Sang-Jun Park, Keun-Soo Heo, Dong-Hee Shin, Young-Han Son, Ji-Hye Oh, \\ Tae-Eui Kam"
     venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025"
 
   - title: "Population-Based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface"
