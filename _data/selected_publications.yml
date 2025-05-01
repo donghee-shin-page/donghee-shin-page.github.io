@@ -3,7 +3,7 @@ publications:
     link:
     authors: "Dong-Hee Shin, Young-Han Son, Hyun Jung Lee, Deok-Joong Lee, Tae-Eui Kam"
     venue: "International Conference on Machine Learning (ICML), 2025"
-    note: "Acceptance rate 26.9% - 3,260 of 12,107 submissions (excluding desk-rejected papers)"
+    note: "Acceptance rate 26.9% | 3,260 of 12,107 submissions (excluding desk-rejected papers)"
 
   - title: "Population-based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface"
     link: "https://www.sciencedirect.com/science/article/pii/S095741742402699X"
