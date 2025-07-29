@@ -24,11 +24,12 @@ layout: default
     {% for pub in site.data.selected_publications.publications %}
       <div style="display: flex; align-items: flex-start; gap: 20px; max-width: 1000px;">
         
-        {% if pub.image %}
-          <div style="flex-shrink: 0; width: 340px; max-width: 100%;">
-            img src="{{ pub.image }}" alt="Thumbnail" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.12);">
-          </div>
-        {% endif %}
+    {% if pub.image %}
+      <div style="flex-shrink: 0; width: 340px; max-width: 100%;">
+        <img src="{{ pub.image }}" alt="Thumbnail" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.12);">
+      </div>
+    {% endif %}
+
 
         <div style="flex-grow: 1;">
           <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
