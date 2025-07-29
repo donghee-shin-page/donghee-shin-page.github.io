@@ -5,7 +5,7 @@ publications:
     authors: "Dong-Hee Shin, Young-Han Son, Hyun Jung Lee, Deok-Joong Lee, Tae-Eui Kam"
     venue: "International Conference on Machine Learning (ICML), 2025"
     note: "Acceptance rate 26.9% | 3,260 of 12,107 submissions (excluding desk-rejected papers)"
-    description_points: "We introduce molecular stitching to generate new samples from existing molecules to optimize generative models even in offline settings."
+    description_points: "We introduce a novel framework that stitches molecules from an offline dataset to fine-tune the generative model for offline multi-objective molecular optimization"
 
   - title: "Population-based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface"
     link: "https://www.sciencedirect.com/science/article/pii/S095741742402699X"
