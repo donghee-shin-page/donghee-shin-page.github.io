@@ -1,6 +1,7 @@
 publications:
   - title: "Offline Model-based Optimization for Real-World Molecular Discovery"
     link:
+    image: "/images/molstitch.png"
     authors: "Dong-Hee Shin, Young-Han Son, Hyun Jung Lee, Deok-Joong Lee, Tae-Eui Kam"
     venue: "International Conference on Machine Learning (ICML), 2025"
     note: "Acceptance rate 26.9% | 3,260 of 12,107 submissions (excluding desk-rejected papers)"
