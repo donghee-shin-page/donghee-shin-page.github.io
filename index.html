@@ -53,11 +53,18 @@ layout: default
             {% endif %}
           </div>
 
-          {% if pub.description %}
-            <div style="font-size: 15px; margin-top: 8px;">
-              {{ pub.description }}
-            </div>
+          {% if pub.description_points %}
+            <ul style="margin-top: 10px; padding-left: 18px; list-style-type: disc; color: #333;">
+              {% for point in pub.description_points %}
+                <li style="margin-bottom: 6px; font-size: 15px; line-height: 1.5;">
+                  {{ point }}
+                </li>
+              {% endfor %}
+            </ul>
           {% endif %}
+
+
+          
         </div>
       </div>
     {% endfor %}
