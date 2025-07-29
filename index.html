@@ -20,37 +20,49 @@ layout: default
 <section class="container" style="margin-top: 80px;">
   <h2 style="font-size: 25px; font-weight: bold;">📚 Selected Publications</h2>
 
-  <ul style="padding-left: 20px; margin-top: 30px;">
+  <div style="display: flex; flex-direction: column; gap: 40px; margin-top: 30px;">
     {% for pub in site.data.selected_publications.publications %}
-      <li style="margin-bottom: 23px;">
-        <!-- Title -->
-        <div style="font-size: 18px; font-weight: 600; margin-bottom: 5px;">
-          {% if pub.link %}
-            <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
+      <div style="display: flex; align-items: flex-start; gap: 20px; max-width: 1000px;">
+        
+        {% if pub.image %}
+          <div style="flex-shrink: 0; width: 260px;">
+            <img src="{{ pub.image }}" alt="Thumbnail" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          </div>
+        {% endif %}
+
+        <div style="flex-grow: 1;">
+          <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
+            {% if pub.link %}
+              <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
+                {{ pub.title }}
+              </a>
+            {% else %}
               {{ pub.title }}
-            </a>
-          {% else %}
-            {{ pub.title }}
+            {% endif %}
+          </div>
+
+          <div style="font-size: 16px; margin-bottom: 6px;">
+            {{ pub.authors | replace: "Dong-Hee Shin", '<strong style="text-decoration: underline;">Dong-Hee Shin</strong>' }}
+          </div>
+
+          <div style="font-size: 15px; color: #555;">
+            {{ pub.venue }}
+            {% if pub.note %}
+              <br/><span style="font-size: 14px; color: #999;">{{ pub.note }}</span>
+            {% endif %}
+          </div>
+
+          {% if pub.description %}
+            <div style="font-size: 15px; margin-top: 8px;">
+              {{ pub.description }}
+            </div>
           {% endif %}
         </div>
-
-        <!-- Authors -->
-        {% assign author_str = pub.authors | replace: "Dong-Hee Shin", '<strong style="text-decoration: underline;">Dong-Hee Shin</strong>' %}
-        <div style="font-size: 17px; margin: 0;">
-          {{ author_str }}
-        </div>
-
-        <!-- Venue + Note -->
-        <div style="font-size: 17px; color: #666; margin-top: 2px;">
-          {{ pub.venue }}
-          {% if pub.note %}
-            <br/><span style="font-size: 16px; color: #999;">{{ pub.note }}</span>
-          {% endif %}
-        </div>
-      </li>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 </section>
+
 
 
 
