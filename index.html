@@ -48,10 +48,14 @@ layout: default
 
           <div style="font-size: 16px; font-weight: bold; color: #555;">
             {{ pub.venue }}
-            {% if pub.note %}
-              <br/><span style="font-size: 15px; color: #999;">{{ pub.note }}</span>
-            {% endif %}
           </div>
+          
+          {% if pub.note %}
+            <div style="font-size: 15px; color: #999; margin-top: 2px;">
+              {{ pub.note }}
+            </div>
+          {% endif %}
+
 
           {% if pub.description_points %}
             <ul style="margin-top: 10px; padding-left: 18px; list-style-type: disc; color: #333;">
