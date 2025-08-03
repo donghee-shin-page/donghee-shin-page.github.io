@@ -25,9 +25,11 @@ publications:
 
   - title: "Sparse Graph Representation Learning Based on Reinforcement Learning for Personalized Mild Cognitive Impairment (MCI) Diagnosis"
     link: "https://ieeexplore.ieee.org/document/10509746"
+    image: "/images/red_jbhi.png"
     authors: "Chang-Hoon Ji, Dong-Hee Shin, Young-Han Son, Tae-Eui Kam"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024"
     note: "JCR Top 5.7% (IF: 6.7)"
+    description_points: "We propose a RL-based framework that dynamically selects regions of interest (ROIs) in a subject-specific manner to improve the accuracy and efficiency of MCI diagnosis."
 
   - title: "FTMMR: Fusion Transformer for Integrating Multiple Molecular Representations"
     link: "https://ieeexplore.ieee.org/document/10485400"
