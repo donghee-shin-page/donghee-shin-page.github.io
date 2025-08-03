@@ -9,9 +9,11 @@ publications:
 
   - title: "Population-based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface"
     link: "https://www.sciencedirect.com/science/article/pii/S095741742402699X"
+    image: "/images/evojoint.png"
     authors: "Dong-Hee Shin, Deok-Joong Lee, Ji-Wung Han, Young-Han Son, Tae-Eui Kam"
     venue: "Expert Systems with Applications (ESWA), 2025"
     note: "JCR Top 5.2% (IF: 7.5)"
+    description_points: "We propose a joint optimization framework that leverages a population-based evolutionary search to optimize both hyperparameters and architectures in brain-computer interface."
 
   - title: "Dynamic Many-Objective Molecular Optimization: Unfolding Complexity with Objective Decomposition and Progressive Optimization"
     link: "https://openreview.net/pdf?id=pmfub8rn4W"
