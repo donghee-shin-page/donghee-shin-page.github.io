@@ -21,7 +21,7 @@ publications:
     authors: "Dong-Hee Shin, Young-Han Son, Deok-Joong Lee, Ji-Wung Han, Tae-Eui Kam"
     venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2024"
     note: "Lead oral presentation (12 min) | Top 2.2% (128 of 5,651 submissions)"
-    description_points: "We propose a method for tackling dynamic many-objective molecular optimization problem by utilizing (1) objective decomposition and (2) progressive optimization.<br>(1) Objective Decomposition: our method decomposes complex many-objective sets into more manageable sub-problems facilitated by our decomposition module.<br>(2) Progressive Optimization: The optimization process begins with a single objective, then progressively adds subsequent objective in decomposition order."
+    description_points: "We propose a method for tackling dynamic many-objective molecular optimization problem by utilizing (1) objective decomposition and (2) progressive optimization.<br>(1) Objective Decomposition: our method decomposes many-objective sets into more manageable sub-problems facilitated by our decomposition module.<br>(2) Progressive Optimization: The optimization process begins with a single objective, then progressively adds subsequent objective in decomposition order."
 
 
 
