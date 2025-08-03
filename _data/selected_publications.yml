@@ -9,7 +9,7 @@ publications:
 
   - title: "Population-based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface"
     link: "https://www.sciencedirect.com/science/article/pii/S095741742402699X"
-    image: "/images/eswa_evojoint.png"
+    image: "/images/evojoint.png"
     authors: "Dong-Hee Shin, Deok-Joong Lee, Ji-Wung Han, Young-Han Son, Tae-Eui Kam"
     venue: "Expert Systems with Applications (ESWA), 2025"
     note: "JCR Top 5.2% (IF: 7.5)"
@@ -21,7 +21,7 @@ publications:
     authors: "Dong-Hee Shin, Young-Han Son, Deok-Joong Lee, Ji-Wung Han, Tae-Eui Kam"
     venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2024"
     note: "Lead oral presentation (12 min) | Top 2.2% (128 of 5,651 submissions)"
-    description_points: "We propose a novel method for tackling dynamic many-objective molecular optimization problem by utilizing objective decomposition and progressive optimization."
+    description_points: "We propose a novel method for tackling dynamic many-objective molecular optimization problem by utilizing objective decomposition and progressive optimization. Progressive Optimization: The optimization process begins with a single objective and, as time stages progress, systematically incorporates each subsequent objective according to the decomposition order."
 
   - title: "Sparse Graph Representation Learning Based on Reinforcement Learning for Personalized Mild Cognitive Impairment (MCI) Diagnosis"
     link: "https://ieeexplore.ieee.org/document/10509746"
