@@ -40,11 +40,11 @@ publications:
 
   - title: "MARS: multiagent reinforcement learning for spatial—spectral and temporal feature selection in EEG-based BCI"
     link: "https://ieeexplore.ieee.org/document/10426745"
-    image: "/images/mars.png"
+    image: "/images/mars_tsmc.png"
     authors: "Dong-Hee Shin, Young-Han Son, Jun-Mo Kim, Hee-Jun Ahn, Jun-Ho Seo, Chang-Hoon Ji, Ji-Wung Han, Byung-Jun Lee, Dong-Ok Won, Tae-Eui Kam"
     venue: "IEEE Transactions on Systems, Man, and Cybernetics: Systems (TSMC), 2024"
     note: "JCR Top 5.4% (IF: 8.6)"
-    description_points: "We propose a cooperative multi-agent RL algorithm that performs feature selection in both spatial-spectral and temporal domains for EEG-based BCI."
+    # description_points: "We propose a cooperative multi-agent RL algorithm that performs feature selection in both spatial-spectral and temporal domains for EEG-based BCI."
 
   # - title: "Evolutionary Reinforcement Learning for Automated Hyperparameter Optimization in EEG Classification"
   #   link: "https://ieeexplore.ieee.org/abstract/document/9734935"
