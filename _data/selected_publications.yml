@@ -21,7 +21,8 @@ publications:
     authors: "Dong-Hee Shin, Young-Han Son, Deok-Joong Lee, Ji-Wung Han, Tae-Eui Kam"
     venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2024"
     note: "Lead oral presentation (12 min) | Top 2.2% (128 of 5,651 submissions)"
-    description_points: "We propose a novel method for tackling dynamic many-objective molecular optimization problem by utilizing objective decomposition and progressive optimization. \\ Objective Decomposition: our method decomposes complex many-objective sets into more manageable sub-problems facilitated by our decomposition module. \\ Progressive Optimization: The optimization process begins with a single objective and, as time stages progress, systematically incorporates each subsequent objective according to the decomposition order."
+    description_points: "We propose a novel method for tackling dynamic many-objective molecular optimization problem by utilizing objective decomposition and progressive optimization.<br>Objective Decomposition: our method decomposes complex many-objective sets into more manageable sub-problems facilitated by our decomposition module.<br>Progressive Optimization: The optimization process begins with a single objective and, as time stages progress, systematically incorporates each subsequent objective according to the decomposition order."
+
 
   - title: "Sparse Graph Representation Learning Based on Reinforcement Learning for Personalized Mild Cognitive Impairment (MCI) Diagnosis"
     link: "https://ieeexplore.ieee.org/document/10509746"
