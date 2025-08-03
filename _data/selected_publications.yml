@@ -32,6 +32,7 @@ publications:
     
   - title: "FTMMR: Fusion Transformer for Integrating Multiple Molecular Representations"
     link: "https://ieeexplore.ieee.org/document/10485400"
+    image: "/images/ftmmr.png"
     authors: "Young-Han Son, Dong-Hee Shin, Tae-Eui Kam"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024"
     note: "JCR Top 5.7% (IF: 6.7)"
@@ -42,6 +43,7 @@ publications:
     authors: "Dong-Hee Shin, Young-Han Son, Jun-Mo Kim, Hee-Jun Ahn, Jun-Ho Seo, Chang-Hoon Ji, Ji-Wung Han, Byung-Jun Lee, Dong-Ok Won, Tae-Eui Kam"
     venue: "IEEE Transactions on Systems, Man, and Cybernetics: Systems (IEEE TSMC), 2024"
     note: "JCR Top 5.4% (IF: 8.6)"
+    description_points: "We propose a cooperative multi-agent RL algorithm that performs feature selection in both spatial-spectral and temporal domains for EEG-based BCI."
 
   # - title: "Evolutionary Reinforcement Learning for Automated Hyperparameter Optimization in EEG Classification"
   #   link: "https://ieeexplore.ieee.org/abstract/document/9734935"
