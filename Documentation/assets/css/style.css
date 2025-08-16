@@ -272,7 +272,6 @@ body {
   }
 }
 
-<style>
 /* ===== Publications 레이아웃 (Grid) ===== */
 .pub-item {
   display: grid;
@@ -314,5 +313,5 @@ body {
   .pub-note { font-size: 14px; }
   .pub-points { padding-left: 16px; }
 }
-</style>
+
 
