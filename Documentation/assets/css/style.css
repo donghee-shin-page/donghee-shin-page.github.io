@@ -311,7 +311,15 @@ body {
   .pub-title { font-size: 18px; }
   .pub-authors, .pub-venue { font-size: 15px; }
   .pub-note { font-size: 14px; }
-  .pub-points { padding-left: 16px; }
+  .pub-points { padding-left: 16px; } /* 이 줄은 아래 최종 덮어쓰기와 충돌해도 무방 */
 }
+
+/* 마지막에 덮어쓰기(선택 사항) */
+.pub-title a { border-bottom: 0; }
+.pub-points { list-style: disc inside; padding-left: 0; }  /* 이 선언이 최종적으로 적용됨 */
+.container .pub-item { margin-left: auto; margin-right: auto; }
+
+
+
 
 
