@@ -31,6 +31,7 @@ layout: default
         {% endif %}
 
         <div class="pub-text">
+          <!-- 제목 -->
           <div class="pub-title">
             {% if pub.link %}
               <a href="{{ pub.link }}">{{ pub.title }}</a>
@@ -39,16 +40,20 @@ layout: default
             {% endif %}
           </div>
 
+          <!-- 저자 -->
           <div class="pub-authors">
             {{ pub.authors | replace: "Dong-Hee Shin", '<strong style="text-decoration: underline;">Dong-Hee Shin</strong>' }}
           </div>
 
+          <!-- 학회/저널 -->
           <div class="pub-venue">{{ pub.venue }}</div>
-          
+
+          <!-- 노트 (예: acceptance rate) -->
           {% if pub.note %}
             <div class="pub-note">{{ pub.note }}</div>
           {% endif %}
 
+          <!-- 설명 bullet points -->
           {% if pub.description_points %}
             <ul class="pub-points">
               {% for point in pub.description_points %}
@@ -61,6 +66,7 @@ layout: default
     {% endfor %}
   </div>
 </section>
+
 
 
 
