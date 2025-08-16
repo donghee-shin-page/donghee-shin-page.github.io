@@ -61,13 +61,10 @@ layout: default
           {% endif %}
 
           {% if pub.description_points %}
-            {% assign hide_str = "We introduce a novel framework that stitches molecules from an offline dataset to generate new samples for fine-tuning the generative model even in offline settings." %}
             <ul class="pub-points" 
                 style="margin-top: 10px; padding-left: 0; list-style-type: disc; color: #333;">
               {% for point in pub.description_points %}
-                <li
-                  class="{% if point == hide_str or point contains 'stitches molecules from an offline dataset' %}mobile-hide{% endif %}"
-                  style="margin-bottom: 6px; font-size: 15px; line-height: 1.5;">
+                <li style="margin-bottom: 6px; font-size: 15px; line-height: 1.5;">
                   {{ point }}
                 </li>
               {% endfor %}
@@ -81,16 +78,16 @@ layout: default
 
 <!-- 스타일: 모바일 전용 표시/숨김 제어 -->
 <style>
-  /* 기본(데스크탑/태블릿): pub-points 숨김 */
-  .pub-points { display: none; }
+  /* 기본(데스크탑/태블릿): description_points 보이도록 별도 설정 없음 */
 
   @media (max-width: 768px) {
-    /* 모바일: 썸네일/불릿/특정 포인트 제어 */
-    .pub-thumb { display: none !important; }           /* 썸네일 숨김 (기존 동작 유지) */
-    .pub-points { display: block !important; margin-left: 1.2rem; }
-    .mobile-hide { display: none !important; }         /* 특정 description_points 문장만 숨김 */
+    /* 모바일: 썸네일 숨김 */
+    .pub-thumb { display: none !important; }
 
-    /* 모바일: 각 논문 블록 제목 앞에 • 표시 (리스트처럼 보이기) */
+    /* 모바일: description_points(불릿 목록) 숨김 */
+    .pub-points { display: none !important; }
+
+    /* 모바일: 각 논문 블록을 리스트처럼 (제목 앞에 • 표시) */
     .pub-item { position: relative; padding-left: 18px; }
     .pub-item::before {
       content: "•";
