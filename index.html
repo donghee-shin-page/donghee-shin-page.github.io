@@ -25,7 +25,7 @@ layout: default
       <div style="display: flex; align-items: flex-start; gap: 20px; max-width: 1000px;">
         
         {% if pub.image %}
-        <!-- 썸네일: 데스크탑에서만 보이고, 모바일에선 CSS 한 줄로 숨김 -->
+        <!-- 썸네일: 데스크탑에서만 보이고, 모바일에서는 숨김 -->
         <div class="pub-thumb" style="flex-shrink: 0; width: 340px; max-width: 100%;">
           <img src="{{ pub.image }}" alt="Thumbnail"
                style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.12);">
@@ -36,7 +36,7 @@ layout: default
           <!-- 제목 -->
           <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
             {% if pub.link %}
-              <a href="{{ pub.link }}" style="text-decoration: none; color: inherit; border-bottom: 0;">
+              <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
                 {{ pub.title }}
               </a>
             {% else %}
@@ -61,7 +61,7 @@ layout: default
           {% endif %}
 
           {% if pub.description_points %}
-            <ul style="margin-top: 10px; padding-left: 18px; list-style-type: disc; color: #333;">
+            <ul style="margin-top: 10px; padding-left: 0; list-style-type: disc; color: #333;">
               {% for point in pub.description_points %}
                 <li style="margin-bottom: 6px; font-size: 15px; line-height: 1.5;">
                   {{ point }}
@@ -75,10 +75,13 @@ layout: default
   </div>
 </section>
 
-<!-- 이 페이지에서만: 모바일(≤768px)에서 썸네일 숨기기 -->
+<!-- 모바일(≤768px)에서 썸네일 숨기기 -->
 <style>
-@media (max-width: 768px) { .pub-thumb { display: none !important; } }
+@media (max-width: 768px) { 
+  .pub-thumb { display: none !important; } 
+}
 </style>
+
 
 
 
