@@ -272,51 +272,7 @@ body {
   }
 }
 
-/* ==== Publications: 강제 오버라이드 ==== */
-.container .pub-list .pub-item {
-  display: grid !important;
-  grid-template-columns: minmax(260px,340px) minmax(0,1fr) !important;
-  column-gap: 20px !important;
-  align-items: start;
-  max-width: 1000px;
-  margin: 0 auto 40px auto;
-}
-
-.container .pub-list .pub-thumb { width: auto; }
-.container .pub-list .pub-thumb img {
-  width: 100% !important;
-  height: auto;
-  display: block;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,.12);
-}
-
-.container .pub-list .pub-text { min-width: 0; }
-
-/* 텍스트 디테일 유지 */
-.container .pub-list .pub-title { font-size: 18px; font-weight: bold; margin-bottom: 8px; line-height: 1.4; }
-.container .pub-list .pub-title a { color: inherit; text-decoration: none; border-bottom: 0; }
-.container .pub-list .pub-authors { font-size: 16px; margin-bottom: 6px; line-height: 1.4; }
-.container .pub-list .pub-venue { font-size: 16px; font-weight: bold; color: #555; }
-.container .pub-list .pub-note { font-size: 15px; font-weight: bold; color: #999; margin-top: 2px; }
-.container .pub-list .pub-points { margin-top: 10px; color: #333; list-style: disc inside; padding-left: 0; }
-.container .pub-list .pub-points li { margin-bottom: 6px; font-size: 15px; line-height: 1.5; }
-.container .pub-list .pub-text, 
-.container .pub-list .pub-text a { overflow-wrap: anywhere; word-break: normal; }
-
-/* 모바일 1열 전환 */
+/* 모바일에선 썸네일 전체 숨기기 */
 @media (max-width: 768px) {
-  .container .pub-list .pub-item {
-    grid-template-columns: 1fr !important;
-    row-gap: 12px !important;
-  }
-  .container .pub-list .pub-title { font-size: 18px; }
-  .container .pub-list .pub-authors,
-  .container .pub-list .pub-venue { font-size: 15px; }
-  .container .pub-list .pub-note { font-size: 14px; }
+  .pub-thumb { display: none !important; }
 }
-
-
-
-
-
