@@ -189,7 +189,26 @@ span.comment {
 }
 .pub-text { flex: 1; min-width: 0; }
 
-/* 텍스트 스타일 */
+/* ===== Publications 레이아웃 (Grid 버전) ===== */
+.pub-item {
+  display: grid;
+  grid-template-columns: 340px 1fr; /* 왼쪽 340px 이미지, 오른쪽 나머지 텍스트 */
+  gap: 20px;
+  align-items: start;
+  max-width: 1000px;
+  margin: 0 auto 40px auto;
+}
+
+.pub-thumb { width: 100%; } /* grid에선 고정폭 대신 칸을 꽉 채우게 */
+.pub-thumb img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.12);
+  display: block;
+}
+
+.pub-text { min-width: 0; } /* 긴 링크/제목 줄바꿈 허용 */
 .pub-title { font-size: 20px; font-weight: 800; margin-bottom: 8px; line-height: 1.25; }
 .pub-title a { color: inherit; text-decoration: none; }
 .pub-authors { font-size: 16px; margin-bottom: 6px; line-height: 1.4; }
@@ -198,25 +217,21 @@ span.comment {
 .pub-points { margin-top: 10px; padding-left: 18px; list-style: disc; color: #333; }
 .pub-points li { margin-bottom: 6px; font-size: 15px; line-height: 1.5; }
 
+/* 긴 제목 줄바꿈 */
+.pub-text, .pub-text a { overflow-wrap: anywhere; word-break: normal; }
+
 /* ===== 모바일 대응 ===== */
 @media (max-width: 768px) {
   .pub-item {
-    flex-direction: column;      /* 이미지 위, 텍스트 아래 */
-    align-items: stretch;
+    grid-template-columns: 1fr; /* 단일 열로 전환: 이미지 위, 글 아래 */
     gap: 12px;
   }
-  .pub-thumb { width: 100% !important; }
   .pub-title { font-size: 18px; line-height: 1.3; }
   .pub-authors, .pub-venue { font-size: 15px; }
   .pub-note { font-size: 14px; }
   .pub-points { padding-left: 16px; }
 }
 
-/* 긴 제목 줄바꿈 */
-.pub-text, .pub-text a {
-  overflow-wrap: anywhere;
-  word-break: normal;
-}
 
 
 /* Structure
