@@ -22,58 +22,46 @@ layout: default
 
   <div style="display: flex; flex-direction: column; gap: 40px; margin-top: 30px;">
     {% for pub in site.data.selected_publications.publications %}
-      <div style="display: flex; align-items: flex-start; gap: 20px; max-width: 1000px;">
+      <div class="pub-item">
         
-    {% if pub.image %}
-      <div style="flex-shrink: 0; width: 340px; max-width: 100%;">
-        <img src="{{ pub.image }}" alt="Thumbnail" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.12);">
-      </div>
-    {% endif %}
+        {% if pub.image %}
+        <div class="pub-thumb">
+          <img src="{{ pub.image }}" alt="Thumbnail">
+        </div>
+        {% endif %}
 
-
-        <div style="flex-grow: 1;">
-          <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
+        <div class="pub-text">
+          <div class="pub-title">
             {% if pub.link %}
-              <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
-                {{ pub.title }}
-              </a>
+              <a href="{{ pub.link }}">{{ pub.title }}</a>
             {% else %}
               {{ pub.title }}
             {% endif %}
           </div>
 
-          <div style="font-size: 16px; margin-bottom: 6px;">
+          <div class="pub-authors">
             {{ pub.authors | replace: "Dong-Hee Shin", '<strong style="text-decoration: underline;">Dong-Hee Shin</strong>' }}
           </div>
 
-          <div style="font-size: 16px; font-weight: bold; color: #555;">
-            {{ pub.venue }}
-          </div>
+          <div class="pub-venue">{{ pub.venue }}</div>
           
           {% if pub.note %}
-            <div style="font-size: 15px; font-weight: bold; color: #999; margin-top: 2px;">
-              {{ pub.note }}
-            </div>
+            <div class="pub-note">{{ pub.note }}</div>
           {% endif %}
 
-
           {% if pub.description_points %}
-            <ul style="margin-top: 10px; padding-left: 0px; list-style-type: disc; color: #333;">
+            <ul class="pub-points">
               {% for point in pub.description_points %}
-                <li style="margin-bottom: 6px; font-size: 15px; line-height: 1.5;">
-                  {{ point }}
-                </li>
+                <li>{{ point }}</li>
               {% endfor %}
             </ul>
           {% endif %}
-
-
-          
         </div>
       </div>
     {% endfor %}
   </div>
 </section>
+
 
 
 
