@@ -1,12 +1,28 @@
 publications:
   - title: "Offline Model-based Optimization for Real-World Molecular Discovery"
-    link: https://openreview.net/pdf?id=erbRHt0XgI
+    link: "https://openreview.net/pdf?id=erbRHt0XgI"
     authors: "Dong-Hee Shin, Young-Han Son, Hyun Jung Lee, Deok-Joong Lee, Tae-Eui Kam"
     venue: "International Conference on Machine Learning (ICML), 2025"
     note: "Acceptance rate 26.9% | 3,260 of 12,107 submissions (excluding desk-rejected papers)"
 
+  - title: "Sharpness-aware minimization with physics-informed regularizations for predicting semiconductor material properties in molecular dynamics"
+    link: 
+    authors: "Dong-Hee Shin, Young-Han Son, Tae-Eui Kam"
+    venue: "Chemometrics and Intelligent Laboratory Systems (CHEMOLAB), 2025"
+    note: "JCR Top 3.9% (IF: 3.8)"    
+
+  - title: "Diverse Sharpness-Aware Minimization for Machine Learning Force Fields in Semiconductor Simulations"
+    link: 
+    authors: "Dong-Hee Shin, Young-Han Son, Tae-Eui Kam"
+    venue: "International SoC Design Conference (ISOCC), 2025"
+
+  - title: "Sparse3Diff: A Diffusion Framework for 3D Reconstruction from Sparse 2D Slices in Volumetric Optical Imaging"
+    link: 
+    authors: "Hyun Jung Lee, Eunjung Jo, Minjoo Lim, Young-Han Son, Bogyeong Kang, Hyeonyeong Nam, Ji-Hoon Jeong, Dong-Hee Shin, Tae-Eui Kam"
+    venue: "International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2025"
+
   - title: "DART: Disease-aware Image-Text Alignment and Self-correcting Re-alignment for Trustworthy Radiology Report Generation"
-    link: https://openaccess.thecvf.com/content/CVPR2025/papers/Park_DART_Disease-aware_Image-Text_Alignment_and_Self-correcting_Re-alignment_for_Trustworthy_Radiology_CVPR_2025_paper.pdf
+    link: "https://openaccess.thecvf.com/content/CVPR2025/papers/Park_DART_Disease-aware_Image-Text_Alignment_and_Self-correcting_Re-alignment_for_Trustworthy_Radiology_CVPR_2025_paper.pdf"
     authors: "Sang-Jun Park, Keun-Soo Heo, Dong-Hee Shin, Young-Han Son, Ji-Hye Oh,<br> Tae-Eui Kam"
     venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025"
 
