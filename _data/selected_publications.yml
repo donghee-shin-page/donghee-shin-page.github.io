@@ -8,7 +8,7 @@ publications:
     description_points: "We introduce a novel framework that stitches molecules from an offline dataset to generate new samples for fine-tuning the generative model even in offline settings."
 
   - title: "Sharpness-Aware Minimization with Physics-Informed Regularizations for Predicting Semiconductor Material Properties in Molecular Dynamics"
-    link: "/images/PI_SAM.png"
+    link: "/images/PI_SAM.png" 
     authors: "Dong-Hee Shin, Young-Han Son, Tae-Eui Kam"
     venue: "Chemometrics and Intelligent Laboratory Systems (CHEMOLAB), 2025"
     note: "JCR Top 3.9% (IF: 3.8)"    
