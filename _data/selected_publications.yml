@@ -7,6 +7,13 @@ publications:
     note: "Acceptance rate 26.9% | 3,260 of 12,107 submissions (excluding desk-rejected papers)"
     description_points: "We introduce a novel framework that stitches molecules from an offline dataset to generate new samples for fine-tuning the generative model even in offline settings."
 
+  - title: "Sharpness-aware minimization with physics-informed regularizations for predicting semiconductor material properties in molecular dynamics"
+    link: "/images/PI_SAM.png"
+    authors: "Dong-Hee Shin, Young-Han Son, Tae-Eui Kam"
+    venue: "Chemometrics and Intelligent Laboratory Systems (CHEMOLAB), 2025"
+    note: "JCR Top 3.9% (IF: 3.8)"    
+    description_points: "We introduce a novel framework that incorporates physics-informed regularizations with sharpness-aware minimization for semiconductor material property prediction."
+
   - title: "Population-based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface"
     link: "https://www.sciencedirect.com/science/article/pii/S095741742402699X"
     image: "/images/evojoint.png"
