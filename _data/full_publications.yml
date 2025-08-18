@@ -19,7 +19,7 @@ publications:
   - title: "Sparse3Diff: A Diffusion Framework for 3D Reconstruction from Sparse 2D Slices in Volumetric Optical Imaging"
     link: 
     authors: "Hyun Jung Lee, Eunjung Jo, Minjoo Lim, Young-Han Son, Bogyeong Kang, Hyeonyeong Nam, Ji-Hoon Jeong, Dong-Hee Shin, Tae-Eui Kam"
-    venue: "International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2025"
+    venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI), 2025"
 
   - title: "DART: Disease-aware Image-Text Alignment and Self-correcting Re-alignment for Trustworthy Radiology Report Generation"
     link: "https://openaccess.thecvf.com/content/CVPR2025/papers/Park_DART_Disease-aware_Image-Text_Alignment_and_Self-correcting_Re-alignment_for_Trustworthy_Radiology_CVPR_2025_paper.pdf"
