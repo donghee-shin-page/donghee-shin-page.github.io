@@ -68,13 +68,13 @@ publications:
     link: "https://ieeexplore.ieee.org/document/10509746"
     authors: "Chang-Hoon Ji, Dong-Hee Shin, Young-Han Son, Tae-Eui Kam"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024"
-    note: "JCR Top 5.7% (IF: 6.7)"
+    note: "JCR Top 3.7% (IF: 6.8)"
 
   - title: "FTMMR: Fusion Transformer for integrating Multiple Molecular Representations"
     link: "https://ieeexplore.ieee.org/document/10485400"
     authors: "Young-Han Son, Dong-Hee Shin, Tae-Eui Kam"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024"
-    note: "JCR Top 5.7% (IF: 6.7)"
+    note: "JCR Top 3.7% (IF: 6.8)"
 
   - title: "META-EEG: Meta-learning-based class-relevant EEG representation learning for zero-calibration brain–computer interfaces"
     link: "https://www.sciencedirect.com/science/article/pii/S0957417423024880"
@@ -86,7 +86,7 @@ publications:
     link: "https://ieeexplore.ieee.org/abstract/document/10438831"
     authors: "Deok-Joong Lee, Dong-Hee Shin, Young-Han Son, Ji-Wung Han, Ji-Hye Oh, Da-Hyun Kim, Ji-Hoon Jeong, Tae-Eui Kam"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024"
-    note: "JCR Top 5.7% (IF: 6.7)"
+    note: "JCR Top 3.7% (IF: 6.8)"
 
   - title: "MARS: Multiagent Reinforcement Learning for Spatial–Spectral and Temporal Feature Selection in EEG-based BCI"
     link: "https://ieeexplore.ieee.org/document/10426745"
