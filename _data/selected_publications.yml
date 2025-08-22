@@ -20,7 +20,7 @@ publications:
     image: "/images/evojoint.png"
     authors: "Dong-Hee Shin, Deok-Joong Lee, Ji-Wung Han, Young-Han Son, Tae-Eui Kam"
     venue: "Expert Systems with Applications (ESWA), 2025"
-    note: "JCR Top 5.2% (IF: 7.5)"
+    note: "JCR Top 6.1% (IF: 7.5)"
     description_points: "We propose a joint optimization framework that leverages a population-based evolutionary search to optimize both hyperparameters and architectures in BCI."
 
   - title: "Dynamic Many-Objective Molecular Optimization: Unfolding Complexity with Objective Decomposition and Progressive Optimization"
@@ -39,14 +39,14 @@ publications:
     image: "/images/red_jbhi.png"
     authors: "Chang-Hoon Ji, Dong-Hee Shin, Young-Han Son, Tae-Eui Kam"
     venue: "IEEE Journal of Biomedical and Health Informatics (JBHI), 2024"
-    note: "JCR Top 5.7% (IF: 6.7)"
+    note: "JCR Top 3.7% (IF: 6.8)"
     
   - title: "FTMMR: Fusion Transformer for Integrating Multiple Molecular Representations"
     link: "https://ieeexplore.ieee.org/document/10485400"
     image: "/images/ftmmr.jpg"
     authors: "Young-Han Son, Dong-Hee Shin, Tae-Eui Kam"
     venue: "IEEE Journal of Biomedical and Health Informatics (JBHI), 2024"
-    note: "JCR Top 5.7% (IF: 6.7)"
+    note: "JCR Top 3.7% (IF: 6.8)"
 
   - title: "MARS: multiagent reinforcement learning for spatial—spectral and temporal feature selection in EEG-based BCI"
     link: "https://ieeexplore.ieee.org/document/10426745"
