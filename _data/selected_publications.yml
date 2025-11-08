@@ -1,4 +1,12 @@
 publications:
+  - title: "Treatment Stitching with Schrödinger Bridge for Enhancing Offline Reinforcement Learning in Adaptive Treatment Strategies"
+    link: ""
+    image: "/images/TreatStitch.png"
+    authors: "Dong-Hee Shin, Deok-Joong Lee, Young-Han Son, Tae-Eui Kam"
+    venue: "Association for the Advancement of Artificial Intelligence (AAAI), 2026"
+    note: "Oral presentation"
+    description_points: "We introduce a novel trajectory augmentation framework for offline reinforcement learning in adaptive treatment strategies, leveraging the Schrödinger Bridge to address sparsity in EHR data."
+
   - title: "Offline Model-based Optimization for Real-World Molecular Discovery"
     link: "https://openreview.net/pdf?id=erbRHt0XgI"
     image: "/images/molstitch.png"
