@@ -16,7 +16,7 @@ publications:
     description_points: "We introduce a novel framework that stitches molecules from an offline dataset to generate new samples for fine-tuning the generative model even in offline settings."
 
   - title: "Sharpness-Aware Minimization with Physics-Informed Regularizations for Predicting Semiconductor Material Properties in Molecular Dynamics"
-    link:
+    link: "https://www.sciencedirect.com/science/article/pii/S0169743925001960"
     image: "/images/pisam1.png" 
     authors: "Dong-Hee Shin, Young-Han Son, Tae-Eui Kam"
     venue: "Chemometrics and Intelligent Laboratory Systems (CHEMOLAB), 2025"
@@ -39,9 +39,6 @@ publications:
     note: "Lead oral presentation (12 min) | Top 2.2% (128 of 5,651 submissions)"
     description_points: "We propose a method for tackling dynamic many-objective molecular optimization problem by utilizing (1) objective decomposition and (2) progressive optimization.<br>(1) Objective Decomposition: our method decomposes many-objective sets into more manageable sub-problems facilitated by our decomposition module.<br>(2) Progressive Optimization: The optimization process begins with a single objective, then progressively adds subsequent objective in decomposition order."
 
-
-
-
   - title: "Sparse Graph Representation Learning Based on Reinforcement Learning for Personalized Mild Cognitive Impairment (MCI) Diagnosis"
     link: "https://ieeexplore.ieee.org/document/10509746"
     image: "/images/red_jbhi.png"
@@ -63,8 +60,3 @@ publications:
     venue: "IEEE Transactions on Systems, Man, and Cybernetics: Systems (TSMC), 2024"
     note: "JCR-IF Top 5.4% (IF: 8.6)"
     description_points: "We propose a cooperative multi-agent reinforcement learning (MARL) algorithm that performs feature selection in both spatial-spectral and temporal domains simultaneously for a motor imagery (MI)-EEG classification task."
-
-  # - title: "Evolutionary Reinforcement Learning for Automated Hyperparameter Optimization in EEG Classification"
-  #   link: "https://ieeexplore.ieee.org/abstract/document/9734935"
-  #   authors: "Dong-Hee Shin, Dong-Hee Ko, Ji-Wung Han, Tae-Eui Kam"
-  #   venue: "International Winter Conference on Brain-Computer Interface (BCI), 2022"
