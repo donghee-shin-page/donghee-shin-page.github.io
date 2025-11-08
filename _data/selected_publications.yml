@@ -5,7 +5,7 @@ publications:
     authors: "Dong-Hee Shin, Deok-Joong Lee, Young-Han Son, Tae-Eui Kam"
     venue: "Association for the Advancement of Artificial Intelligence (AAAI), 2026"
     note: "Oral presentation"
-    description_points: "We introduce a novel trajectory augmentation framework for offline reinforcement learning in adaptive treatment strategies, leveraging the Schrödinger Bridge (SB) to generate smooth and energy-efficient transitions that mitigate sparsity in EHR data."
+    description_points: "We introduce a novel trajectory augmentation framework for offline reinforcement learning in adaptive treatment strategies, leveraging the Schrödinger Bridge (SB) to generate smooth and energy-efficient transitions that address sparsity in EHR data."
 
   - title: "Offline Model-based Optimization for Real-World Molecular Discovery"
     link: "https://openreview.net/pdf?id=erbRHt0XgI"
