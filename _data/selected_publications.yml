@@ -51,7 +51,7 @@ publications:
     image: "/images/ftmmr.jpg"
     authors: "Young-Han Son, Dong-Hee Shin, Tae-Eui Kam"
     venue: "IEEE Journal of Biomedical and Health Informatics (JBHI), 2024"
-    note: "JCR Top 3.7% (IF: 6.8)"
+    note: "JCR-IF Top 3.7% (IF: 6.8)"
 
   - title: "MARS: multiagent reinforcement learning for spatial—spectral and temporal feature selection in EEG-based BCI"
     link: "https://ieeexplore.ieee.org/document/10426745"
