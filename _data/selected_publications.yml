@@ -58,5 +58,5 @@ publications:
     image: "/images/mars_combined.png"
     authors: "Dong-Hee Shin, Young-Han Son, Jun-Mo Kim, Hee-Jun Ahn, Jun-Ho Seo, Chang-Hoon Ji, Ji-Wung Han, Byung-Jun Lee, Dong-Ok Won, Tae-Eui Kam"
     venue: "IEEE Transactions on Systems, Man, and Cybernetics: Systems (TSMC), 2024"
-    note: "JCR-IF Top 5.4% (IF: 8.6)"
+    note: "JCR-IF Top 6.2% (IF: 8.7)"
     description_points: "We propose a cooperative multi-agent reinforcement learning (MARL) algorithm that performs feature selection in both spatial-spectral and temporal domains simultaneously for a motor imagery (MI)-EEG classification task."
