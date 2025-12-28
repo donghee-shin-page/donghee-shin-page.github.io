@@ -18,7 +18,7 @@ permalink: /publications/
   </a>.
 </p>
 
-<p style="font-size: 14px; color: #666; margin-top: 20px;">
+<p style="font-size: 20px; color: #666; margin-top: 20px;">
   <sup style="color:#d97706; font-weight:bold;">*</sup>
   indicates the corresponding author.
 </p>
@@ -30,11 +30,21 @@ permalink: /publications/
 <ul style="padding-left: 0; max-width: 900px; margin: 0 auto;">
   {% assign prev_year = "" %}
 
-  {% for pub in site.data.full_publications.publications %}
-    
-    {% assign year = pub.venue | slice: -4, 4 %}
+  {%- comment -%} Oldest = 1 numbering (keep display order as-is) {%- endcomment -%}
+  {% assign j_total = 0 %}
+  {% assign c_total = 0 %}
 
-    {% if year != prev_year %}
+  {% for p in site.data.full_publications.publications %}
+    {% if p.type == "J" %}
+      {% assign j_total = j_total | plus: 1 %}
+    {% elsif p.type == "C" %}
+      {% assign c_total = c_total | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign j_count = 0 %}
+  {% assign c_count = 0 %}
+
       <!-- Year Header -->
       <li style="list-style: none; margin: 50px 0 20px 0;">
         <h2 style="
@@ -55,32 +65,34 @@ permalink: /publications/
     <!-- Publication Item -->
     <li style="list-style: none; margin-bottom: 32px; line-height: 1.6;">
 
-    <!-- Title -->
+       <!-- Title -->
     <div style="font-size: 20px; font-weight: 600; margin-bottom: 6px;">
-    
+
       {% if pub.type == "J" %}
         {% assign j_count = j_count | plus: 1 %}
+        {% assign j_num = j_total | minus: j_count | plus: 1 %}
         <span style="
           color:#2b6cb0;
           font-weight:600;
           letter-spacing:0.5px;
-          margin-right:6px;
+          margin-right:4px;
         ">
-          [J{{ j_count }}]
+          [J{{ j_num }}]
         </span>
-    
+
       {% elsif pub.type == "C" %}
         {% assign c_count = c_count | plus: 1 %}
+        {% assign c_num = c_total | minus: c_count | plus: 1 %}
         <span style="
           color:#2f855a;
           font-weight:600;
           letter-spacing:0.5px;
-          margin-right:6px;
+          margin-right:4px;
         ">
-          [C{{ c_count }}]
+          [C{{ c_num }}]
         </span>
       {% endif %}
-    
+
       {% if pub.link %}
         <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
           {{ pub.title }}
@@ -89,6 +101,7 @@ permalink: /publications/
         {{ pub.title }}
       {% endif %}
     </div>
+
 
 
 
