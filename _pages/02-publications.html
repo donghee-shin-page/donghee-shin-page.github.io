@@ -27,11 +27,27 @@ permalink: /publications/
 <hr style="margin-top: 20px; margin-bottom: 30px;"/>
 
 <ul style="padding-left: 20px; max-width: 900px; margin: 0 auto;">
+  {% assign prev_year = "" %}
+
   {% for pub in site.data.full_publications.publications %}
+    
+    {% assign year = pub.venue | slice: -4, 4 %}
+
+    {% if year != prev_year %}
+      <!-- Year Header -->
+      <li style="list-style: none; margin-top: 40px; margin-bottom: 15px;">
+        <div style="font-size: 26px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 6px;">
+          {{ year }}
+        </div>
+      </li>
+      {% assign prev_year = year %}
+    {% endif %}
+
+    <!-- Publication Item -->
     <li style="margin-bottom: 32px; line-height: 1.6;">
       
       <!-- Title -->
-      <div style="font-size: 20px; font-weight: 600; margin-bottom: 6px; max-width: 100%;">
+      <div style="font-size: 20px; font-weight: 600; margin-bottom: 6px;">
         {% if pub.link %}
           <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
             {{ pub.title }}
@@ -52,16 +68,17 @@ permalink: /publications/
         {{ pub.venue }}
       </div>
 
-      <!-- JCR Note (optional) -->
+      <!-- Note -->
       {% if pub.note %}
         <div style="font-size: 15px; color: #999; margin-top: 3px;">
-        <em>{{ pub.note }}</em>
+          <em>{{ pub.note }}</em>
         </div>
       {% endif %}
 
     </li>
   {% endfor %}
 </ul>
+
 
 
 <hr style="margin-top: 40px;"/>
