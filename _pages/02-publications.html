@@ -59,36 +59,34 @@ permalink: /publications/
     {% endif %}
 
     <!-- Publication Item -->
-    <li style="list-style: none; margin-bottom: 32px; line-height: 1.6;">
+<li style="list-style: none; margin-bottom: 36px; line-height: 1.6;">
+
+  <div style="display: flex; align-items: flex-start;">
+
+    <!-- Left: Index -->
+    <div style="
+      width: 56px;
+      flex-shrink: 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: {% if pub.type == 'J' %}#2b6cb0{% else %}#2f855a{% endif %};
+    ">
+      {% if pub.type == "J" %}
+        {% assign j_count = j_count | plus: 1 %}
+        {% assign j_num = j_total | minus: j_count | plus: 1 %}
+        [J{{ j_num }}]
+      {% elsif pub.type == "C" %}
+        {% assign c_count = c_count | plus: 1 %}
+        {% assign c_num = c_total | minus: c_count | plus: 1 %}
+        [C{{ c_num }}]
+      {% endif %}
+    </div>
+
+    <!-- Right: Content -->
+    <div style="flex: 1;">
 
       <!-- Title -->
-      <div style="font-size: 20px; font-weight: 600; margin-bottom: 6px;">
-
-        {% if pub.type == "J" %}
-          {% assign j_count = j_count | plus: 1 %}
-          {% assign j_num = j_total | minus: j_count | plus: 1 %}
-          <span style="
-            color:#2b6cb0;
-            font-weight:600;
-            letter-spacing:0.5px;
-            margin-right:2px;
-          ">
-            [J{{ j_num }}]
-          </span>
-
-        {% elsif pub.type == "C" %}
-          {% assign c_count = c_count | plus: 1 %}
-          {% assign c_num = c_total | minus: c_count | plus: 1 %}
-          <span style="
-            color:#2f855a;
-            font-weight:600;
-            letter-spacing:0.5px;
-            margin-right:2px;
-          ">
-            [C{{ c_num }}]
-          </span>
-        {% endif %}
-
+      <div style="font-size: 20px; font-weight: 600; margin-bottom: 4px;">
         {% if pub.link %}
           <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
             {{ pub.title }}
@@ -103,36 +101,36 @@ permalink: /publications/
         | replace: "Dong-Hee Shin", "<strong><u>Dong-Hee Shin</u></strong>"
         | replace: "*", "<sup style='color:#d97706; font-weight:bold;'>*</sup>"
       %}
-      <div style="font-size: 18px; color: #333;">
+      <div style="font-size: 17px; color: #333;">
         {{ author_str }}
       </div>
 
-      <!-- Venue -->
+      <!-- Venue (blue, visible) -->
       <div style="
-        font-size: 17px;
-        color: #555;
-        margin-top: 4px;
+        font-size: 16px;
+        color: #2563eb;
+        margin-top: 2px;
+        font-weight: 500;
       ">
-        <span style="font-weight: 500;">
-          {{ pub.venue }}
-        </span>
+        {{ pub.venue }}
       </div>
 
-
+      <!-- Note (highlighted but clean) -->
       {% if pub.note %}
         <div style="
-          font-size: 15px;
-          color: #555;
+          font-size: 14px;
+          color: #374151;
           margin-top: 6px;
           padding-left: 10px;
-          border-left: 3px solid #e5e7eb;
+          border-left: 3px solid {% if pub.type == 'J' %}#bfdbfe{% else %}#bbf7d0{% endif %};
         ">
           <em>{{ pub.note }}</em>
         </div>
       {% endif %}
 
-
-    </li>
+    </div>
+  </div>
+</li>
 
   {% endfor %}
 </ul>
