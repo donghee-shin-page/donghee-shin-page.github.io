@@ -54,6 +54,19 @@ permalink: /publications/
 
     <!-- Publication Item -->
     <li style="list-style: none; margin-bottom: 32px; line-height: 1.6;">
+
+    <!-- Title -->
+    <div style="font-size: 20px; font-weight: 600; margin-bottom: 6px;">
+      {% if pub.link %}
+        <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
+          {{ pub.title }}
+        </a>
+      {% else %}
+        {{ pub.title }}
+      {% endif %}
+    </div>
+
+
       
     
       <!-- Authors (bold your name + styled *) -->
