@@ -4,12 +4,6 @@ title: publications
 permalink: /publications/
 ---
 
-
-<!-- <h2 style="font-size: 30px; font-weight: bold; text-align: center;">📚 Full Publications</h2> -->
-
-
-
-
 <p style="font-size: 20px;">
   📝 Here is the comprehensive list of my recent research publications.<br>
   📌 For the latest list and citation formats, please visit:
@@ -23,14 +17,13 @@ permalink: /publications/
   indicates the corresponding author.
 </p>
 
-
-
 <hr style="margin-top: 20px; margin-bottom: 30px;"/>
 
 <ul style="padding-left: 0; max-width: 900px; margin: 0 auto;">
+
   {% assign prev_year = "" %}
 
-  {%- comment -%} Oldest = 1 numbering (keep display order as-is) {%- endcomment -%}
+  {%- comment -%} Count totals for reverse numbering {%- endcomment -%}
   {% assign j_total = 0 %}
   {% assign c_total = 0 %}
 
@@ -45,19 +38,22 @@ permalink: /publications/
   {% assign j_count = 0 %}
   {% assign c_count = 0 %}
 
-      <!-- Year Header -->
+  {% for pub in site.data.full_publications.publications %}
+
+    {% assign year = pub.venue | slice: -4, 4 %}
+
+    {% if year != prev_year %}
       <li style="list-style: none; margin: 50px 0 20px 0;">
         <h2 style="
-            font-size: 32px;
-            font-weight: 600;
-            color: #666;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 8px;
-            margin-bottom: 10px;
-          ">
-            {{ year }}
-          </h2>
-
+          font-size: 32px;
+          font-weight: 600;
+          color: #666;
+          border-bottom: 2px solid #ddd;
+          padding-bottom: 8px;
+          margin-bottom: 10px;
+        ">
+          {{ year }}
+        </h2>
       </li>
       {% assign prev_year = year %}
     {% endif %}
@@ -65,49 +61,44 @@ permalink: /publications/
     <!-- Publication Item -->
     <li style="list-style: none; margin-bottom: 32px; line-height: 1.6;">
 
-       <!-- Title -->
-    <div style="font-size: 20px; font-weight: 600; margin-bottom: 6px;">
+      <!-- Title -->
+      <div style="font-size: 20px; font-weight: 600; margin-bottom: 6px;">
 
-      {% if pub.type == "J" %}
-        {% assign j_count = j_count | plus: 1 %}
-        {% assign j_num = j_total | minus: j_count | plus: 1 %}
-        <span style="
-          color:#2b6cb0;
-          font-weight:600;
-          letter-spacing:0.5px;
-          margin-right:4px;
-        ">
-          [J{{ j_num }}]
-        </span>
+        {% if pub.type == "J" %}
+          {% assign j_count = j_count | plus: 1 %}
+          {% assign j_num = j_total | minus: j_count | plus: 1 %}
+          <span style="
+            color:#2b6cb0;
+            font-weight:600;
+            letter-spacing:0.5px;
+            margin-right:4px;
+          ">
+            [J{{ j_num }}]
+          </span>
 
-      {% elsif pub.type == "C" %}
-        {% assign c_count = c_count | plus: 1 %}
-        {% assign c_num = c_total | minus: c_count | plus: 1 %}
-        <span style="
-          color:#2f855a;
-          font-weight:600;
-          letter-spacing:0.5px;
-          margin-right:4px;
-        ">
-          [C{{ c_num }}]
-        </span>
-      {% endif %}
+        {% elsif pub.type == "C" %}
+          {% assign c_count = c_count | plus: 1 %}
+          {% assign c_num = c_total | minus: c_count | plus: 1 %}
+          <span style="
+            color:#2f855a;
+            font-weight:600;
+            letter-spacing:0.5px;
+            margin-right:4px;
+          ">
+            [C{{ c_num }}]
+          </span>
+        {% endif %}
 
-      {% if pub.link %}
-        <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
+        {% if pub.link %}
+          <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
+            {{ pub.title }}
+          </a>
+        {% else %}
           {{ pub.title }}
-        </a>
-      {% else %}
-        {{ pub.title }}
-      {% endif %}
-    </div>
+        {% endif %}
+      </div>
 
-
-
-
-      
-    
-      <!-- Authors (bold your name + styled *) -->
+      <!-- Authors -->
       {% assign author_str = pub.authors
         | replace: "Dong-Hee Shin", "<strong><u>Dong-Hee Shin</u></strong>"
         | replace: "*", "<sup style='color:#d97706; font-weight:bold;'>*</sup>"
@@ -121,7 +112,6 @@ permalink: /publications/
         {{ pub.venue }}
       </div>
 
-      <!-- Note -->
       {% if pub.note %}
         <div style="font-size: 15px; color: #999; margin-top: 3px;">
           <em>{{ pub.note }}</em>
@@ -129,10 +119,8 @@ permalink: /publications/
       {% endif %}
 
     </li>
+
   {% endfor %}
 </ul>
-
-
-
 
 <hr style="margin-top: 40px;"/>
