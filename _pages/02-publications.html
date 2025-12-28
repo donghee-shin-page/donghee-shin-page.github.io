@@ -36,9 +36,17 @@ permalink: /publications/
     {% if year != prev_year %}
       <!-- Year Header -->
       <li style="list-style: none; margin: 50px 0 20px 0;">
-        <h2 style="font-size: 32px; font-weight: 700; border-bottom: 3px solid #ddd; padding-bottom: 8px;">
-          {{ year }}
-        </h2>
+        <h2 style="
+            font-size: 32px;
+            font-weight: 600;
+            color: #666;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 8px;
+            margin-bottom: 10px;
+          ">
+            {{ year }}
+          </h2>
+
       </li>
       {% assign prev_year = year %}
     {% endif %}
