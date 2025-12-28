@@ -1,155 +1,182 @@
 publications:
-  - title: "[C16] Cooperative Multi-Agent Reinforcement Learning for Wind Turbine Control in Renewable Energy"
+  - type: C
+    title: "Cooperative Multi-Agent Reinforcement Learning for Wind Turbine Control in Renewable Energy"
     link: ""
     authors: "Dong-Hee Shin, Tae-Eui Kam*"
-    venue: " International Conference on Consumer Electronic (ICCE), 2026"
+    venue: "International Conference on Consumer Electronic (ICCE), 2026"
 
-  - title: "[J12] Source-driven enhanced semantic style transfer for addressing BCI illiteracy in subject-independent EEG-based motor imagery classification"
+  - type: J
+    title: "Source-driven enhanced semantic style transfer for addressing BCI illiteracy in subject-independent EEG-based motor imagery classification"
     link: ""
     authors: "Ji-Wung Han, Dong-Hee Shin, Chang-Hoon Ji, Deok-Joong Lee, Jun-Mo Kim, WooHyeok Choi, Ji-Hye Oh, Sanghyeon Cho, Young-Han Son, Tae-Eui Kam*"
-    venue: " Applied Soft Computing, 2026"
+    venue: "Applied Soft Computing, 2026"
 
-  - title: "[C15] Simple Yet Effective Recipes for Improving Mask Optimization in Semiconductor Lithography"
+  - type: C
+    title: "Simple Yet Effective Recipes for Improving Mask Optimization in Semiconductor Lithography"
     link: ""
     authors: "Young-Han Son, Dong-Hee Shin*"
-    venue: " International Conference on Semiconductors (ICOS), 2026"
+    venue: "International Conference on Semiconductors (ICOS), 2026"
 
-  - title: "[C14] Advancing Molecular Structure Elucidation for Mass Spectrum Interpretation via Cepstral Analysis"
+  - type: C
+    title: "Advancing Molecular Structure Elucidation for Mass Spectrum Interpretation via Cepstral Analysis"
     link: ""
     authors: "Dong-Hee Shin, Eunjung Jo, Hyun Jung Lee, Hyeonyeong Nam, Tae-Eui Kam*"
-    venue: " International Conference on Electronics, Information, and Communication (ICEIC), 2026"
+    venue: "International Conference on Electronics, Information, and Communication (ICEIC), 2026"
 
-  - title: "[C13] Treatment Stitching with Schrödinger Bridge for Enhancing Offline Reinforcement Learning in Adaptive Treatment Strategies"
+  - type: C
+    title: "Treatment Stitching with Schrödinger Bridge for Enhancing Offline Reinforcement Learning in Adaptive Treatment Strategies"
     link: "https://arxiv.org/pdf/2511.12075"
     authors: "Dong-Hee Shin, Deok-Joong Lee, Young-Han Son, Tae-Eui Kam*"
     venue: "Association for the Advancement of Artificial Intelligence (AAAI), 2026"
     note: "Oral presentation"
-    
-  - title: "[C12] Offline Model-based Optimization for Real-World Molecular Discovery"
+
+  - type: C
+    title: "Offline Model-based Optimization for Real-World Molecular Discovery"
     link: "https://openreview.net/pdf?id=erbRHt0XgI"
     authors: "Dong-Hee Shin, Young-Han Son, Hyun Jung Lee, Deok-Joong Lee, Tae-Eui Kam*"
     venue: "International Conference on Machine Learning (ICML), 2025"
     note: "Acceptance rate 26.9% | 3,260 of 12,107 submissions (excluding desk-rejected papers)"
 
-  - title: "[J11] Sharpness-Aware Minimization with Physics-Informed Regularizations for Predicting Semiconductor Material Properties in Molecular Dynamics"
+  - type: J
+    title: "Sharpness-Aware Minimization with Physics-Informed Regularizations for Predicting Semiconductor Material Properties in Molecular Dynamics"
     link: "https://www.sciencedirect.com/science/article/pii/S0169743925001960"
     authors: "Dong-Hee Shin, Young-Han Son, Tae-Eui Kam*"
     venue: "Chemometrics and Intelligent Laboratory Systems (CHEMOLAB), 2025"
-    note: "JCR-IF Top 3.8% (IF: 3.8)"    
+    note: "JCR-IF Top 3.8% (IF: 3.8)"
 
-  - title: "[C11] Diverse Sharpness-Aware Minimization for Machine Learning Force Fields in Semiconductor Simulations"
-    link: 
+  - type: C
+    title: "Diverse Sharpness-Aware Minimization for Machine Learning Force Fields in Semiconductor Simulations"
+    link: ""
     authors: "Dong-Hee Shin, Young-Han Son, Tae-Eui Kam*"
     venue: "International SoC Design Conference (ISOCC), 2025"
 
-  - title: "[C10] Sparse3Diff: A Diffusion Framework for 3D Reconstruction from Sparse 2D Slices in Volumetric Optical Imaging"
+  - type: C
+    title: "Sparse3Diff: A Diffusion Framework for 3D Reconstruction from Sparse 2D Slices in Volumetric Optical Imaging"
     link: "https://link.springer.com/chapter/10.1007/978-3-032-04965-0_48"
     authors: "Hyun Jung Lee, Eunjung Jo, Minjoo Lim, Young-Han Son, Bogyeong Kang, Hyeonyeong Nam, Ji-Hoon Jeong, Dong-Hee Shin, Tae-Eui Kam*"
     venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI), 2025"
 
-  - title: "[C9] DART: Disease-aware Image-Text Alignment and Self-correcting Re-alignment for Trustworthy Radiology Report Generation"
+  - type: C
+    title: "DART: Disease-aware Image-Text Alignment and Self-correcting Re-alignment for Trustworthy Radiology Report Generation"
     link: "https://openaccess.thecvf.com/content/CVPR2025/papers/Park_DART_Disease-aware_Image-Text_Alignment_and_Self-correcting_Re-alignment_for_Trustworthy_Radiology_CVPR_2025_paper.pdf"
     authors: "Sang-Jun Park, Keun-Soo Heo, Dong-Hee Shin, Young-Han Son, Ji-Hye Oh,<br> Tae-Eui Kam*"
     venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025"
 
-  - title: "[J10] Population-Based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface"
+  - type: J
+    title: "Population-Based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface"
     link: "https://www.sciencedirect.com/science/article/pii/S095741742402699X"
     authors: "Dong-Hee Shin, Deok-Joong Lee, Ji-Wung Han, Young-Han Son, Tae-Eui Kam*"
     venue: "Expert Systems with Applications (ESWA), 2025"
     note: "JCR-IF Top 6.1% (IF: 7.5)"
 
-  - title: "[C8] Designing Selective Drugs: Multi-Objective Optimization to Mitigate Off-Target Effects"
+  - type: C
+    title: "Designing Selective Drugs: Multi-Objective Optimization to Mitigate Off-Target Effects"
     link: "https://ieeexplore.ieee.org/abstract/document/10879640"
     authors: "Dong-Hee Shin, Young-Han Son, Deok-Joong Lee, Tae-Eui Kam*"
     venue: "International Conference on Electronics, Information, and Communication (ICEIC), 2025"
 
-  - title: "[C7] Molecular Optimization with Mamba-Based GFlowNet"
+  - type: C
+    title: "Molecular Optimization with Mamba-Based GFlowNet"
     link: "https://ieeexplore.ieee.org/abstract/document/10879751"
     authors: "Young-Han Son, Dong-Hee Shin, Deok-Joong Lee, Tae-Eui Kam*"
-    venue: "International Conference on Electronics, Information, and Communication (ICEIC), 2025"  
+    venue: "International Conference on Electronics, Information, and Communication (ICEIC), 2025"
 
-  - title: "[C6] Hybrid Local-Global GNN for Protein Binding Interface Prediction via Ensemble Learning"
+  - type: C
+    title: "Hybrid Local-Global GNN for Protein Binding Interface Prediction via Ensemble Learning"
     link: "https://ieeexplore.ieee.org/abstract/document/10879636"
     authors: "Deok-Joong Lee, Dong-Hee Shin, Young-Han Son, Tae-Eui Kam*"
-    venue: "International Conference on Electronics, Information, and Communication (ICEIC), 2025"  
+    venue: "International Conference on Electronics, Information, and Communication (ICEIC), 2025"
 
-  - title: "[C5] Image2SignalNet: Image-based deep learning approach for capturing neuronal signals from calcium imaging"
+  - type: C
+    title: "Image2SignalNet: Image-based deep learning approach for capturing neuronal signals from calcium imaging"
     link: "https://ieeexplore.ieee.org/abstract/document/10821755"
     authors: "Eunjung Jo, Dong-Hee Shin, Ji-Hye Oh, Sanghyeon Cho, Hyun Jung Lee, Tae-Eui Kam*"
-    venue: "International Conference on Bioinformatics and Biomedicine (BIBM), 2024"  
+    venue: "International Conference on Bioinformatics and Biomedicine (BIBM), 2024"
 
-  - title: "[J9] A learnable continuous wavelet-based multi-branch attentive convolutional neural network for spatio–spectral–temporal EEG signal decoding"
+  - type: J
+    title: "A learnable continuous wavelet-based multi-branch attentive convolutional neural network for spatio–spectral–temporal EEG signal decoding"
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0957417424008418"
     authors: "Jun-Mo Kim, Keun-Soo Heo, Dong-Hee Shin, Hyeonyeong Nam, Dong-Ok Won, Ji-Hoon Jeong, Tae-Eui Kam*"
-    venue: "Expert Systems with Applications (ESWA), 2024"  
+    venue: "Expert Systems with Applications (ESWA), 2024"
     note: "JCR-IF Top 6.1% (IF: 7.5)"
-  
-  - title: "[C4] Dynamic Many-Objective Molecular Optimization: Unfolding Complexity with Objective Decomposition and Progressive Optimization"
+
+  - type: C
+    title: "Dynamic Many-Objective Molecular Optimization: Unfolding Complexity with Objective Decomposition and Progressive Optimization"
     link: "https://openreview.net/pdf?id=pmfub8rn4W"
     authors: "Dong-Hee Shin, Young-Han Son, Deok-Joong Lee, Ji-Wung Han, Tae-Eui Kam*"
     venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2024"
     note: "Lead oral presentation (12 min) | Top 2.2% (128 of 5,651 submissions)"
 
-  - title: "[J8] Sparse Graph Representation Learning Based on Reinforcement Learning for Personalized Mild Cognitive Impairment (MCI) Diagnosis"
+  - type: J
+    title: "Sparse Graph Representation Learning Based on Reinforcement Learning for Personalized Mild Cognitive Impairment (MCI) Diagnosis"
     link: "https://ieeexplore.ieee.org/document/10509746"
     authors: "Chang-Hoon Ji, Dong-Hee Shin, Young-Han Son, Tae-Eui Kam*"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024"
     note: "JCR-IF Top 3.7% (IF: 6.8)"
 
-  - title: "[J7] FTMMR: Fusion Transformer for integrating Multiple Molecular Representations"
+  - type: J
+    title: "FTMMR: Fusion Transformer for integrating Multiple Molecular Representations"
     link: "https://ieeexplore.ieee.org/document/10485400"
     authors: "Young-Han Son, Dong-Hee Shin, Tae-Eui Kam*"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024"
     note: "JCR-IF Top 3.7% (IF: 6.8)"
 
-  - title: "[J6] META-EEG: Meta-learning-based class-relevant EEG representation learning for zero-calibration brain–computer interfaces"
+  - type: J
+    title: "META-EEG: Meta-learning-based class-relevant EEG representation learning for zero-calibration brain–computer interfaces"
     link: "https://www.sciencedirect.com/science/article/pii/S0957417423024880"
     authors: "Ji-Wung Han, Soyeon Bak, Jun-Mo Kim, WooHyeok Choi, Dong-Hee Shin, Young-Han Son, Tae-Eui Kam*"
     venue: "Expert Systems with Applications (ESWA), 2024"
     note: "JCR-IF Top 6.1% (IF: 7.5)"
 
-  - title: "[J5] Spectral Graph Neural Network-Based Multi-Atlas Brain Network Fusion for Major Depressive Disorder Diagnosis"
+  - type: J
+    title: "Spectral Graph Neural Network-Based Multi-Atlas Brain Network Fusion for Major Depressive Disorder Diagnosis"
     link: "https://ieeexplore.ieee.org/abstract/document/10438831"
     authors: "Deok-Joong Lee, Dong-Hee Shin, Young-Han Son, Ji-Wung Han, Ji-Hye Oh, Da-Hyun Kim, Ji-Hoon Jeong, Tae-Eui Kam*"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024"
     note: "JCR-IF Top 3.7% (IF: 6.8)"
 
-  - title: "[J4] MARS: Multiagent Reinforcement Learning for Spatial–Spectral and Temporal Feature Selection in EEG-based BCI"
+  - type: J
+    title: "MARS: Multiagent Reinforcement Learning for Spatial–Spectral and Temporal Feature Selection in EEG-based BCI"
     link: "https://ieeexplore.ieee.org/document/10426745"
     authors: "Dong-Hee Shin, Young-Han Son, Jun-Mo Kim, Hee-Jun Ahn, Jun-Ho Seo, Chang-Hoon Ji, Ji-Wung Han, Byung-Jun Lee, Dong-Ok Won, Tae-Eui Kam*"
     venue: "IEEE Transactions on Systems, Man, and Cybernetics: Systems (IEEE TSMC), 2024"
     note: "JCR-IF Top 6.2% (IF: 8.7)"
 
-  - title: "[J3] Graph-Based Conditional Generative Adversarial Networks for Major Depressive Disorder Diagnosis With Synthetic Functional Brain Network Generation"
+  - type: J
+    title: "Graph-Based Conditional Generative Adversarial Networks for Major Depressive Disorder Diagnosis With Synthetic Functional Brain Network Generation"
     link: "https://ieeexplore.ieee.org/abstract/document/10349934"
     authors: "Ji-Hye Oh, Deok-Joong Lee, Chang-Hoon Ji, Dong-Hee Shin, Ji-Wung Han, Young-Han Son, Tae-Eui Kam*"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2023"
     note: "JCR-IF Top 5.7% (IF: 6.7)"
 
-  - title: "[J2] Bridging the BCI illiteracy gap: a subject-to-subject semantic style transfer for EEG-based motor imagery classification"
+  - type: J
+    title: "Bridging the BCI illiteracy gap: a subject-to-subject semantic style transfer for EEG-based motor imagery classification"
     link: "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2023.1194751/full"
     authors: "Da-Hyun Kim, Dong-Hee Shin, Tae-Eui Kam*"
     venue: "Frontiers in Human Neuroscience, 2023"
     note: "JCR-IF Q2 (IF: 2.4)"
 
-  - title: "[C3] GNN-based Antibody Structure Prediction using Quaternion and Euler Angle Combined Representation"
+  - type: C
+    title: "GNN-based Antibody Structure Prediction using Quaternion and Euler Angle Combined Representation"
     link: "https://ieeexplore.ieee.org/abstract/document/9954877"
     authors: "Young-Han Son, Dong-Hee Shin, Ji-Wung Han, Seong-Hyeon Won, Tae-Eui Kam*"
     venue: "IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia), 2022"
 
-  - title: "[J1] Deep attentive spatio-temporal feature learning for automatic resting-state fMRI denoising"
+  - type: J
+    title: "Deep attentive spatio-temporal feature learning for automatic resting-state fMRI denoising"
     link: "https://www.sciencedirect.com/science/article/pii/S1053811922002555"
     authors: "Keun-Soo Heo, Dong-Hee Shin, Sheng-Che Hung, Weili Lin, Han Zhang, Dinggang Shen, Tae-Eui Kam*"
     venue: "NeuroImage, 2022"
     note: "JCR-IF Top 3.3% (IF: 4.7)"
 
-  - title: "[C2] Evolutionary Reinforcement Learning for Automated Hyperparameter Optimization in EEG Classification"
+  - type: C
+    title: "Evolutionary Reinforcement Learning for Automated Hyperparameter Optimization in EEG Classification"
     link: "https://ieeexplore.ieee.org/abstract/document/9734935"
     authors: "Dong-Hee Shin, Dong-Hee Ko, Ji-Wung Han, Tae-Eui Kam*"
     venue: "International Winter Conference on Brain-Computer Interface (BCI), 2022"
 
-  - title: "[C1] Attention-based spatio-temporal-spectral feature learning for subject-specific EEG classification"
+  - type: C
+    title: "Attention-based spatio-temporal-spectral feature learning for subject-specific EEG classification"
     link: "https://ieeexplore.ieee.org/abstract/document/9385293"
     authors: "Dong-Hee Ko, Dong-Hee Shin, Tae-Eui Kam*"
     venue: "International Winter Conference on Brain-Computer Interface (BCI), 2021"
-  
