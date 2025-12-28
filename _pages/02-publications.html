@@ -57,6 +57,30 @@ permalink: /publications/
 
     <!-- Title -->
     <div style="font-size: 20px; font-weight: 600; margin-bottom: 6px;">
+    
+      {% if pub.type == "J" %}
+        {% assign j_count = j_count | plus: 1 %}
+        <span style="
+          color:#2b6cb0;
+          font-weight:600;
+          letter-spacing:0.5px;
+          margin-right:6px;
+        ">
+          [J{{ j_count }}]
+        </span>
+    
+      {% elsif pub.type == "C" %}
+        {% assign c_count = c_count | plus: 1 %}
+        <span style="
+          color:#2f855a;
+          font-weight:600;
+          letter-spacing:0.5px;
+          margin-right:6px;
+        ">
+          [C{{ c_count }}]
+        </span>
+      {% endif %}
+    
       {% if pub.link %}
         <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
           {{ pub.title }}
@@ -65,6 +89,7 @@ permalink: /publications/
         {{ pub.title }}
       {% endif %}
     </div>
+
 
 
       
