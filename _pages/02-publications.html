@@ -26,7 +26,7 @@ permalink: /publications/
 
 <hr style="margin-top: 20px; margin-bottom: 30px;"/>
 
-<ul style="padding-left: 20px; max-width: 900px; margin: 0 auto;">
+<ul style="padding-left: 0; max-width: 900px; margin: 0 auto;">
   {% assign prev_year = "" %}
 
   {% for pub in site.data.full_publications.publications %}
@@ -35,19 +35,26 @@ permalink: /publications/
 
     {% if year != prev_year %}
       <!-- Year Header -->
-      <li style="list-style: none; margin-top: 40px; margin-bottom: 15px;">
-        <div style="font-size: 26px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 6px;">
+      <li style="list-style: none; margin: 50px 0 20px 0;">
+        <h2 style="font-size: 32px; font-weight: 700; border-bottom: 3px solid #ddd; padding-bottom: 8px;">
           {{ year }}
-        </div>
+        </h2>
       </li>
       {% assign prev_year = year %}
     {% endif %}
 
     <!-- Publication Item -->
-    <li style="margin-bottom: 32px; line-height: 1.6;">
+    <li style="list-style: none; margin-bottom: 32px; line-height: 1.6;">
       
-      <!-- Title -->
+      <!-- Title with Badge -->
       <div style="font-size: 20px; font-weight: 600; margin-bottom: 6px;">
+        
+        {% if pub.title contains "[J" %}
+          <span style="background:#2b6cb0; color:white; padding:2px 8px; border-radius:6px; font-size:14px; margin-right:6px;">J</span>
+        {% elsif pub.title contains "[C" %}
+          <span style="background:#2f855a; color:white; padding:2px 8px; border-radius:6px; font-size:14px; margin-right:6px;">C</span>
+        {% endif %}
+
         {% if pub.link %}
           <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
             {{ pub.title }}
@@ -57,8 +64,11 @@ permalink: /publications/
         {% endif %}
       </div>
 
-      <!-- Authors -->
-      {% assign author_str = pub.authors | replace: "Dong-Hee Shin", "<strong><u>Dong-Hee Shin</u></strong>" %}
+      <!-- Authors (bold your name + styled *) -->
+      {% assign author_str = pub.authors
+        | replace: "Dong-Hee Shin", "<strong><u>Dong-Hee Shin</u></strong>"
+        | replace: "*", "<sup style='color:#d97706; font-weight:bold;'>*</sup>"
+      %}
       <div style="font-size: 18px; color: #333;">
         {{ author_str }}
       </div>
@@ -78,6 +88,7 @@ permalink: /publications/
     </li>
   {% endfor %}
 </ul>
+
 
 
 
