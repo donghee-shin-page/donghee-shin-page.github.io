@@ -54,24 +54,7 @@ permalink: /publications/
     <!-- Publication Item -->
     <li style="list-style: none; margin-bottom: 32px; line-height: 1.6;">
       
-      <!-- Title with Badge -->
-      <div style="font-size: 20px; font-weight: 600; margin-bottom: 6px;">
-        
-        {% if pub.title contains "[J" %}
-          <span style="background:#2b6cb0; color:white; padding:2px 8px; border-radius:6px; font-size:14px; margin-right:6px;">J</span>
-        {% elsif pub.title contains "[C" %}
-          <span style="background:#2f855a; color:white; padding:2px 8px; border-radius:6px; font-size:14px; margin-right:6px;">C</span>
-        {% endif %}
-
-        {% if pub.link %}
-          <a href="{{ pub.link }}" style="text-decoration: none; color: inherit;">
-            {{ pub.title }}
-          </a>
-        {% else %}
-          {{ pub.title }}
-        {% endif %}
-      </div>
-
+    
       <!-- Authors (bold your name + styled *) -->
       {% assign author_str = pub.authors
         | replace: "Dong-Hee Shin", "<strong><u>Dong-Hee Shin</u></strong>"
