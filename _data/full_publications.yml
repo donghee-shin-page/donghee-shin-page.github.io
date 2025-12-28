@@ -1,9 +1,23 @@
 publications:
+  - title: "[C16] Cooperative Multi-Agent Reinforcement Learning for Wind Turbine Control in Renewable Energy"
+    link: ""
+    authors: "Dong-Hee Shin, Tae-Eui Kam"
+    venue: " International Conference on Consumer Electronic (ICCE), 2026"
 
-  - title: "[C14] Simple Yet Effective Recipes for Improving Mask Optimization in Semiconductor Lithography"
+  - title: "[J12] Source-driven enhanced semantic style transfer for addressing BCI illiteracy in subject-independent EEG-based motor imagery classification"
+    link: ""
+    authors: "Ji-Wung Han, Dong-Hee Shin, Chang-Hoon Ji, Deok-Joong Lee, Jun-Mo Kim, WooHyeok Choi, Ji-Hye Oh, Sanghyeon Cho, Young-Han Son, Tae-Eui Kam"
+    venue: " Applied Soft Computing, 2026"
+
+  - title: "[C15] Simple Yet Effective Recipes for Improving Mask Optimization in Semiconductor Lithography"
     link: ""
     authors: "Young-Han Son, Dong-Hee Shin*"
     venue: " International Conference on Semiconductors (ICOS), 2026"
+
+  - title: "[C14] Advancing Molecular Structure Elucidation for Mass Spectrum Interpretation via Cepstral Analysis"
+    link: ""
+    authors: "Dong-Hee Shin, Eunjung Jo, Hyun Jung Lee, Hyeonyeong Nam, Tae-Eui Kam"
+    venue: " International Conference on Electronics, Information, and Communication (ICEIC), 2026"
 
   - title: "[C13] Treatment Stitching with Schrödinger Bridge for Enhancing Offline Reinforcement Learning in Adaptive Treatment Strategies"
     link: "https://arxiv.org/pdf/2511.12075"
