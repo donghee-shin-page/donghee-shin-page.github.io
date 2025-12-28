@@ -61,7 +61,7 @@ permalink: /publications/
     <!-- Publication Item -->
 <li style="list-style: none; margin-bottom: 36px; line-height: 1.6;">
 
-  <div style="display: flex; align-items: flex-start;">
+  <div style="display: flex; align-items: baseline;">
 
     <!-- Left: Index -->
     <div style="
@@ -69,6 +69,7 @@ permalink: /publications/
       flex-shrink: 0;
       font-size: 18px;
       font-weight: 600;
+      line-height: 1.4;
       color: {% if pub.type == 'J' %}#2b6cb0{% else %}#2f855a{% endif %};
     ">
       {% if pub.type == "J" %}
@@ -115,18 +116,21 @@ permalink: /publications/
         {{ pub.venue }}
       </div>
 
-      <!-- Note (highlighted but clean) -->
       {% if pub.note %}
-        <div style="
-          font-size: 14px;
-          color: #374151;
-          margin-top: 6px;
-          padding-left: 10px;
-          border-left: 3px solid {% if pub.type == 'J' %}#bfdbfe{% else %}#bbf7d0{% endif %};
-        ">
-          <em>{{ pub.note }}</em>
-        </div>
-      {% endif %}
+      <div style="
+        font-size: 14px;
+        color: #065f46;
+        margin-top: 6px;
+        padding: 4px 8px;
+        background: #ecfdf5;
+        border-left: 4px solid #10b981;
+        border-radius: 4px;
+        display: inline-block;
+      ">
+        {{ pub.note }}
+      </div>
+    {% endif %}
+
 
     </div>
   </div>
