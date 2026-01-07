@@ -7,9 +7,10 @@ publications:
 
   - type: J
     title: "Source-driven enhanced semantic style transfer for addressing BCI illiteracy in subject-independent EEG-based motor imagery classification"
-    link: ""
+    link: "https://www.sciencedirect.com/science/article/pii/S1568494625017958"
     authors: "Ji-Wung Han, Dong-Hee Shin, Chang-Hoon Ji, Deok-Joong Lee, Jun-Mo Kim, WooHyeok Choi, Ji-Hye Oh, Sanghyeon Cho, Young-Han Son, Tae-Eui Kam*"
     venue: "Applied Soft Computing, 2026"
+    note: "JCR-IF Top 9.1% (IF: 6.6)"
 
   - type: C
     title: "Simple Yet Effective Recipes for Improving Mask Optimization in Semiconductor Lithography"
