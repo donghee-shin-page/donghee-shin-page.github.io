@@ -51,7 +51,7 @@ publications:
     link: "https://www.sciencedirect.com/science/article/pii/S0169743925001960"
     authors: "Dong-Hee Shin, Young-Han Son, Tae-Eui Kam*"
     venue: "Chemometrics and Intelligent Laboratory Systems (CHEMOLAB), 2025"
-    note: "JCR-IF Top 3.8% (IF: 3.8)"
+    note: "JCR Top 3.8% (IF: 3.8)"
 
   - type: C
     title: "Diverse Sharpness-Aware Minimization for Machine Learning Force Fields in Semiconductor Simulations"
@@ -76,7 +76,7 @@ publications:
     link: "https://www.sciencedirect.com/science/article/pii/S095741742402699X"
     authors: "Dong-Hee Shin, Deok-Joong Lee, Ji-Wung Han, Young-Han Son, Tae-Eui Kam*"
     venue: "Expert Systems with Applications (ESWA), 2025"
-    note: "JCR-IF Top 6.1% (IF: 7.5)"
+    note: "JCR Top 6.1% (IF: 7.5)"
 
   - type: C
     title: "Designing Selective Drugs: Multi-Objective Optimization to Mitigate Off-Target Effects"
@@ -107,7 +107,7 @@ publications:
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0957417424008418"
     authors: "Jun-Mo Kim, Keun-Soo Heo, Dong-Hee Shin, Hyeonyeong Nam, Dong-Ok Won, Ji-Hoon Jeong, Tae-Eui Kam*"
     venue: "Expert Systems with Applications (ESWA), 2024"
-    note: "JCR-IF Top 6.1% (IF: 7.5)"
+    note: "JCR Top 6.1% (IF: 7.5)"
 
   - type: C
     title: "Dynamic Many-Objective Molecular Optimization: Unfolding Complexity with Objective Decomposition and Progressive Optimization"
@@ -121,49 +121,49 @@ publications:
     link: "https://ieeexplore.ieee.org/document/10509746"
     authors: "Chang-Hoon Ji, Dong-Hee Shin, Young-Han Son, Tae-Eui Kam*"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024"
-    note: "JCR-IF Top 3.7% (IF: 6.8)"
+    note: "JCR Top 3.7% (IF: 6.8)"
 
   - type: J
     title: "FTMMR: Fusion Transformer for integrating Multiple Molecular Representations"
     link: "https://ieeexplore.ieee.org/document/10485400"
     authors: "Young-Han Son, Dong-Hee Shin, Tae-Eui Kam*"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024"
-    note: "JCR-IF Top 3.7% (IF: 6.8)"
+    note: "JCR Top 3.7% (IF: 6.8)"
 
   - type: J
     title: "META-EEG: Meta-learning-based class-relevant EEG representation learning for zero-calibration brain–computer interfaces"
     link: "https://www.sciencedirect.com/science/article/pii/S0957417423024880"
     authors: "Ji-Wung Han, Soyeon Bak, Jun-Mo Kim, WooHyeok Choi, Dong-Hee Shin, Young-Han Son, Tae-Eui Kam*"
     venue: "Expert Systems with Applications (ESWA), 2024"
-    note: "JCR-IF Top 6.1% (IF: 7.5)"
+    note: "JCR Top 6.1% (IF: 7.5)"
 
   - type: J
     title: "Spectral Graph Neural Network-Based Multi-Atlas Brain Network Fusion for Major Depressive Disorder Diagnosis"
     link: "https://ieeexplore.ieee.org/abstract/document/10438831"
     authors: "Deok-Joong Lee, Dong-Hee Shin, Young-Han Son, Ji-Wung Han, Ji-Hye Oh, Da-Hyun Kim, Ji-Hoon Jeong, Tae-Eui Kam*"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2024"
-    note: "JCR-IF Top 3.7% (IF: 6.8)"
+    note: "JCR Top 3.7% (IF: 6.8)"
 
   - type: J
     title: "MARS: Multiagent Reinforcement Learning for Spatial–Spectral and Temporal Feature Selection in EEG-based BCI"
     link: "https://ieeexplore.ieee.org/document/10426745"
     authors: "Dong-Hee Shin, Young-Han Son, Jun-Mo Kim, Hee-Jun Ahn, Jun-Ho Seo, Chang-Hoon Ji, Ji-Wung Han, Byung-Jun Lee, Dong-Ok Won, Tae-Eui Kam*"
     venue: "IEEE Transactions on Systems, Man, and Cybernetics: Systems (IEEE TSMC), 2024"
-    note: "JCR-IF Top 6.2% (IF: 8.7)"
+    note: "JCR Top 6.2% (IF: 8.7)"
 
   - type: J
     title: "Graph-Based Conditional Generative Adversarial Networks for Major Depressive Disorder Diagnosis With Synthetic Functional Brain Network Generation"
     link: "https://ieeexplore.ieee.org/abstract/document/10349934"
     authors: "Ji-Hye Oh, Deok-Joong Lee, Chang-Hoon Ji, Dong-Hee Shin, Ji-Wung Han, Young-Han Son, Tae-Eui Kam*"
     venue: "IEEE Journal of Biomedical and Health Informatics (IEEE JBHI), 2023"
-    note: "JCR-IF Top 5.7% (IF: 6.7)"
+    note: "JCR Top 5.7% (IF: 6.7)"
 
   - type: J
     title: "Bridging the BCI illiteracy gap: a subject-to-subject semantic style transfer for EEG-based motor imagery classification"
     link: "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2023.1194751/full"
     authors: "Da-Hyun Kim, Dong-Hee Shin, Tae-Eui Kam*"
     venue: "Frontiers in Human Neuroscience, 2023"
-    note: "JCR-IF Q2 (IF: 2.4)"
+    note: "JCR Q2 (IF: 2.4)"
 
   - type: C
     title: "GNN-based Antibody Structure Prediction using Quaternion and Euler Angle Combined Representation"
@@ -176,7 +176,7 @@ publications:
     link: "https://www.sciencedirect.com/science/article/pii/S1053811922002555"
     authors: "Keun-Soo Heo, Dong-Hee Shin, Sheng-Che Hung, Weili Lin, Han Zhang, Dinggang Shen, Tae-Eui Kam*"
     venue: "NeuroImage, 2022"
-    note: "JCR-IF Top 3.3% (IF: 4.7)"
+    note: "JCR Top 3.3% (IF: 4.7)"
 
   - type: C
     title: "Evolutionary Reinforcement Learning for Automated Hyperparameter Optimization in EEG Classification"
