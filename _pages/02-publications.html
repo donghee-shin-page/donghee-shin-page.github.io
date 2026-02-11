@@ -132,23 +132,23 @@ permalink: /publications/
       </div>
     {% endif %
 
-  {% if pub.subnote %}
-  <div style="
-    font-size: 13px;
-    color: #64748b;
-    font-weight: 600;
-    margin-top: 6px;
-    {% if pub.note %}margin-left: 6px;{% endif %} /* note가 있을 때만 간격 띄움 */
-    padding: 2px 7px;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 4px;
-    display: inline-block;
-    vertical-align: middle;
-  ">
-    {{ pub.subnote }}
-  </div>
-{% endif %}
+{% endif %} {% if pub.subnote %}
+      <div style="
+        font-size: 15px;
+        color: #64748b;
+        font-weight: 600;
+        margin-top: 6px;
+        {% if pub.note %}margin-left: 6px;{% endif %}
+        padding: 2px 7px;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 4px;
+        display: inline-block;
+        vertical-align: middle;
+      ">
+        {{ pub.subnote }}
+      </div>
+      {% endif %}
 
 
 
