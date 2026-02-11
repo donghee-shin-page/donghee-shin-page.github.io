@@ -5,7 +5,7 @@ publications:
     link: "https://www.sciencedirect.com/science/article/pii/S0933365726000230"
     authors: "WooHyeok Choi, Jun-Mo Kim, Hyeonyeong Nam, Soyeon Bak, Dong-Hee Shin, Tae-Eui Kam*"
     venue: "Artificial Intelligence in Medicine, 2026"
-    note: "Q1: Top 13.5% (IF: 6.3)"
+    subnote: "Q1: Top 13.5% (IF: 6.3)"
 
   - type: C
     title: "Cooperative Multi-Agent Reinforcement Learning for Wind Turbine Control in Renewable Energy"
@@ -18,7 +18,7 @@ publications:
     link: "https://www.sciencedirect.com/science/article/pii/S1568494625017958"
     authors: "Ji-Wung Han, Dong-Hee Shin, Chang-Hoon Ji, Deok-Joong Lee, Jun-Mo Kim, WooHyeok Choi, Ji-Hye Oh, Sanghyeon Cho, Young-Han Son, Tae-Eui Kam*"
     venue: "Applied Soft Computing, 2026"
-    note: "Q1: Top 13.3% (IF: 6.6)"
+    subnote: "Q1: Top 13.3% (IF: 6.6)"
 
   - type: C
     title: "Simple Yet Effective Recipes for Improving Mask Optimization in Semiconductor Lithography"
