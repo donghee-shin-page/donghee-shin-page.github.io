@@ -1,4 +1,12 @@
 publications:
+
+  - type: J
+    title: "EEG-based epileptic seizure prediction with patient-tailored spectral–spatial–temporal feature learning"
+    link: "https://www.sciencedirect.com/science/article/pii/S0933365726000230"
+    authors: "WooHyeok Choi, Jun-Mo Kim, Hyeonyeong Nam, Soyeon Bak, Dong-Hee Shin, Tae-Eui Kam*"
+    venue: "Artificial Intelligence in Medicine, 2026"
+    note: "Q1: Top 13.5% (IF: 6.3)"
+
   - type: C
     title: "Cooperative Multi-Agent Reinforcement Learning for Wind Turbine Control in Renewable Energy"
     link: ""
@@ -10,7 +18,7 @@ publications:
     link: "https://www.sciencedirect.com/science/article/pii/S1568494625017958"
     authors: "Ji-Wung Han, Dong-Hee Shin, Chang-Hoon Ji, Deok-Joong Lee, Jun-Mo Kim, WooHyeok Choi, Ji-Hye Oh, Sanghyeon Cho, Young-Han Son, Tae-Eui Kam*"
     venue: "Applied Soft Computing, 2026"
-    note: "JCR-IF Top 9.1% (IF: 6.6)"
+    note: "Q1: Top 13.3% (IF: 6.6)"
 
   - type: C
     title: "Simple Yet Effective Recipes for Improving Mask Optimization in Semiconductor Lithography"
@@ -47,7 +55,7 @@ publications:
 
   - type: C
     title: "Diverse Sharpness-Aware Minimization for Machine Learning Force Fields in Semiconductor Simulations"
-    link: ""
+    link: "https://ieeexplore.ieee.org/abstract/document/11330061"
     authors: "Dong-Hee Shin, Young-Han Son, Tae-Eui Kam*"
     venue: "International SoC Design Conference (ISOCC), 2025"
 
