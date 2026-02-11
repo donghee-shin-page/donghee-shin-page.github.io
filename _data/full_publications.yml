@@ -3,7 +3,7 @@ publications:
   - type: J
     title: "EEG-based epileptic seizure prediction with patient-tailored spectral–spatial–temporal feature learning"
     link: "https://www.sciencedirect.com/science/article/pii/S0933365726000230"
-    authors: "WooHyeok Choi, Jun-Mo Kim, Hyeonyeong Nam, Soyeon Bak, Dong-Hee Shin, Tae-Eui Kam*"
+    authors: "WooHyeok Choi, Jun-Mo Kim, Hyeonyeong Nam, Soyeon Bak, Dong-Hee Shin,<br> Tae-Eui Kam*"
     venue: "Artificial Intelligence in Medicine, 2026"
     subnote: "Q1: Top 13.5% (IF: 6.3)"
 
