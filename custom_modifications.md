@@ -1,6 +1,6 @@
 # Site Custom Modifications Log
 
-/_includes/main.scss
+_includes/main.scss
 
 ```scss
 /* =======================================
