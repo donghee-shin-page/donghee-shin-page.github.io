@@ -98,3 +98,8 @@
 @import '4-layouts/post';
 /* >>>>>>>>>>>>>> :: 4.3-Tags Page <<<<<<<<<<<<<<< */
 @import '4-layouts/tags-page';
+
+/* Custom override */
+.hero__description {
+  max-width: 38ch;
+}
