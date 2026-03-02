@@ -34,7 +34,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Hello, I’m Dong-Hee
-  hero__description: I’m an Assistant Professor at Yonsei University,<br> Mirae Campus. My main research focuses on <br> AI for Science, Robotics, and RL.
+  hero__description: I’m an Assistant Professor at Yonsei University,<br> Mirae Campus. My main research focuses on <br> AI for Science, Robotics, and Reinforcement Learning.
   hero__image: '/images/donghee_shin1.png'
 
 
