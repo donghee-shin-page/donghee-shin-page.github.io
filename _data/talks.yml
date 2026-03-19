@@ -2,6 +2,11 @@
   event: AAAI
   year: 2026
   location: Singapore
+  
+- title: Cepstrum Analysis for Mass Spectrum Data 
+  event: ICEIC
+  year: 2026
+  location: Macau
 
 - title: Machine Learning Force Fields for Semiconductor Design
   event: ISOCC
