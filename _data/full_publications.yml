@@ -1,4 +1,10 @@
 publications:
+  - type: C
+    title: "Optical Diffraction-based Convolution for Semiconductor Lithography"
+    link: ""
+    authors: "Young-Han Son, Dong-Hee Shin*, Deok-Joong Lee, Hyun Jung Lee, Tae-Eui Kam*"
+    venue: "Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
+    note: "Acceptance rate 25.4% | 4,090 of 16,092 submissions"
 
   - type: J
     title: "EEG-based epileptic seizure prediction with patient-tailored spectral–spatial–temporal feature learning"
