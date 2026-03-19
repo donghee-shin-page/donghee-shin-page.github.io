@@ -5,7 +5,7 @@ publications:
     authors: "Young-Han Son, Dong-Hee Shin, Deok-Joong Lee, Hyun Jung Lee, Tae-Eui Kam"
     venue: "Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
     note: "Acceptance rate 25.4% | 4,090 of 16,092 submissions"
-    description_points: "We introduce a physics-inspired neural network for semiconductor lithography that explicitly incorporates optical diffraction to model phase variations arising from light propagation, enabling accurate representation of the underlying interactions among light, masks, and wafers."
+    description_points: "We introduce a physics-inspired neural network for semiconductor lithography that explicitly incorporates optical diffraction to model phase variations arising from light propagation, enabling accurate representation of the lithography process."
     
   - title: "Treatment Stitching with Schrödinger Bridge for Enhancing Offline Reinforcement Learning in Adaptive Treatment Strategies"
     link: "https://arxiv.org/pdf/2511.12075"
