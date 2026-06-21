@@ -1,22 +1,21 @@
 publications:
-
   - type: C
     title: "Optical Diffraction-based Convolution for Semiconductor Lithography"
-    link: ""
+    link: "https://openaccess.thecvf.com/content/CVPR2026/papers/Son_Optical_Diffraction-based_Convolution_for_Semiconductor_Lithography_CVPR_2026_paper.pdf"
     authors: "Young-Han Son, Dong-Hee Shin*, Deok-Joong Lee, Hyun Jung Lee, Tae-Eui Kam*"
     venue: "Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
-    note: "Acceptance rate 25.4% | 4,090 of 16,092 submissions"
+    note: "Computer Vision Top-tier Conference"
 
   - type: J
     title: "EEG-based epileptic seizure prediction with patient-tailored spectral–spatial–temporal feature learning"
     link: "https://www.sciencedirect.com/science/article/pii/S0933365726000230"
-    authors: "WooHyeok Choi, Jun-Mo Kim, Hyeonyeong Nam, Soyeon Bak, Dong-Hee Shin,<br> Tae-Eui Kam*"
+    authors: "WooHyeok Choi, Jun-Mo Kim, Hyeonyeong Nam, Soyeon Bak, Dong-Hee Shin, Tae-Eui Kam*"
     venue: "Artificial Intelligence in Medicine, 2026"
-    subnote: "Q1: Top 13.5% (IF: 6.3)"
+    note: "JCR Top 8.3% (IF: 7.8)"
 
   - type: C
     title: "Cooperative Multi-Agent Reinforcement Learning for Wind Turbine Control in Renewable Energy"
-    link: ""
+    link: "https://ieeexplore.ieee.org/abstract/document/11449594/"
     authors: "Dong-Hee Shin, Tae-Eui Kam*"
     venue: "International Conference on Consumer Electronic (ICCE), 2026"
 
@@ -25,7 +24,7 @@ publications:
     link: "https://www.sciencedirect.com/science/article/pii/S1568494625017958"
     authors: "Ji-Wung Han, Dong-Hee Shin, Chang-Hoon Ji, Deok-Joong Lee, Jun-Mo Kim, WooHyeok Choi, Ji-Hye Oh, Sanghyeon Cho, Young-Han Son, Tae-Eui Kam*"
     venue: "Applied Soft Computing, 2026"
-    subnote: "Q1: Top 13.3% (IF: 6.6)"
+    subnote: "Q1: Top 13.2% (IF: 7.8)"
 
   - type: C
     title: "Simple Yet Effective Recipes for Improving Mask Optimization in Semiconductor Lithography"
@@ -35,7 +34,7 @@ publications:
 
   - type: C
     title: "Advancing Molecular Structure Elucidation for Mass Spectrum Interpretation via Cepstral Analysis"
-    link: ""
+    link: "https://ieeexplore.ieee.org/abstract/document/11386243"
     authors: "Dong-Hee Shin, Eunjung Jo, Hyun Jung Lee, Hyeonyeong Nam, Tae-Eui Kam*"
     venue: "International Conference on Electronics, Information, and Communication (ICEIC), 2026"
 
@@ -44,21 +43,21 @@ publications:
     link: "https://arxiv.org/pdf/2511.12075"
     authors: "Dong-Hee Shin, Deok-Joong Lee, Young-Han Son, Tae-Eui Kam*"
     venue: "Association for the Advancement of Artificial Intelligence (AAAI), 2026"
-    note: "Oral presentation"
+    note: "AI Top-tier Conference"
 
   - type: C
     title: "Offline Model-based Optimization for Real-World Molecular Discovery"
     link: "https://openreview.net/pdf?id=erbRHt0XgI"
     authors: "Dong-Hee Shin, Young-Han Son, Hyun Jung Lee, Deok-Joong Lee, Tae-Eui Kam*"
     venue: "International Conference on Machine Learning (ICML), 2025"
-    note: "Acceptance rate 26.9% | 3,260 of 12,107 submissions (excluding desk-rejected papers)"
+    note: "AI Top-tier Conference"
 
   - type: J
     title: "Sharpness-Aware Minimization with Physics-Informed Regularizations for Predicting Semiconductor Material Properties in Molecular Dynamics"
     link: "https://www.sciencedirect.com/science/article/pii/S0169743925001960"
     authors: "Dong-Hee Shin, Young-Han Son, Tae-Eui Kam*"
     venue: "Chemometrics and Intelligent Laboratory Systems (CHEMOLAB), 2025"
-    note: "JCR Top 3.8% (IF: 3.8)"
+    note: "JCR Top 6.8% (IF: 3.8)"
 
   - type: C
     title: "Diverse Sharpness-Aware Minimization for Machine Learning Force Fields in Semiconductor Simulations"
@@ -77,13 +76,14 @@ publications:
     link: "https://openaccess.thecvf.com/content/CVPR2025/papers/Park_DART_Disease-aware_Image-Text_Alignment_and_Self-correcting_Re-alignment_for_Trustworthy_Radiology_CVPR_2025_paper.pdf"
     authors: "Sang-Jun Park, Keun-Soo Heo, Dong-Hee Shin, Young-Han Son, Ji-Hye Oh,<br> Tae-Eui Kam*"
     venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025"
+    note: "Computer Vision Top-tier Conference"
 
   - type: J
     title: "Population-Based Evolutionary Search for Joint Hyperparameter and Architecture Optimization in Brain-Computer Interface"
     link: "https://www.sciencedirect.com/science/article/pii/S095741742402699X"
     authors: "Dong-Hee Shin, Deok-Joong Lee, Ji-Wung Han, Young-Han Son, Tae-Eui Kam*"
     venue: "Expert Systems with Applications (ESWA), 2025"
-    note: "JCR Top 6.1% (IF: 7.5)"
+    note: "JCR Top 5.0% (IF: 9.4)"
 
   - type: C
     title: "Designing Selective Drugs: Multi-Objective Optimization to Mitigate Off-Target Effects"
@@ -121,7 +121,7 @@ publications:
     link: "https://openreview.net/pdf?id=pmfub8rn4W"
     authors: "Dong-Hee Shin, Young-Han Son, Deok-Joong Lee, Ji-Wung Han, Tae-Eui Kam*"
     venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2024"
-    note: "Lead oral presentation (12 min) | Top 2.2% (128 of 5,651 submissions)"
+    note: "AI Top-tier Conference"
 
   - type: J
     title: "Sparse Graph Representation Learning Based on Reinforcement Learning for Personalized Mild Cognitive Impairment (MCI) Diagnosis"
@@ -170,7 +170,7 @@ publications:
     link: "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2023.1194751/full"
     authors: "Da-Hyun Kim, Dong-Hee Shin, Tae-Eui Kam*"
     venue: "Frontiers in Human Neuroscience, 2023"
-    note: "JCR Q2 (IF: 2.4)"
+    subnote: "JCR Q2 (IF: 2.4)"
 
   - type: C
     title: "GNN-based Antibody Structure Prediction using Quaternion and Euler Angle Combined Representation"
