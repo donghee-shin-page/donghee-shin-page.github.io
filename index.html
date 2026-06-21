@@ -66,7 +66,7 @@ layout: default
           <div style="font-size: 16px; margin-bottom: 6px;">
             {{ pub.authors 
               | replace: "Dong-Hee Shin", '<strong style="text-decoration: underline;">Dong-Hee Shin</strong>' 
-              | replace: "*", '<sub class="author-star">*</sub>' 
+              | replace: "*", '<sup class="author-star">*</sup>' 
             }}
           </div>
 
@@ -106,7 +106,6 @@ layout: default
     font-size: 12px;
     margin-left: 1px;
   }
-
   /* 기본(데스크탑/태블릿): description_points 보이도록 별도 설정 없음 */
 
   @media (max-width: 768px) {
