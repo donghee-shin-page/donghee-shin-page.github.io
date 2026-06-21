@@ -33,9 +33,10 @@ layout: default
 <section id="publications" class="container" style="margin-top: 80px;">
   <h2 style="font-size: 25px; font-weight: bold;">📚 Selected Publications</h2>
 
-  <div style="font-size: 15px; color: #666; margin-top: 8px;">
-    <sup class="author-star">*</sup> indicates the corresponding author.
-  </div>
+<div class="pub-note">
+  <span class="note-star">*</span>
+  <span>indicates the corresponding author.</span>
+</div>
   
   <div style="display: flex; flex-direction: column; gap: 40px; margin-top: 30px;">
     {% for pub in site.data.selected_publications.publications %}
@@ -65,7 +66,7 @@ layout: default
           <div style="font-size: 16px; margin-bottom: 6px;">
             {{ pub.authors 
               | replace: "Dong-Hee Shin", '<strong style="text-decoration: underline;">Dong-Hee Shin</strong>' 
-              | replace: "*", '<sup class="author-star">*</sup>' 
+              | replace: "*", '<span class="author-star">*</span>' 
             }}
           </div>
 
@@ -102,9 +103,9 @@ layout: default
   .author-star {
     color: #d97706;
     font-weight: 800;
-    font-size: 11px;
+    font-size: 10px;
     margin-left: 1px;
-    vertical-align: super;
+    position: relative;
   }
 
   /* 기본(데스크탑/태블릿): description_points 보이도록 별도 설정 없음 */
